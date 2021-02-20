@@ -14,8 +14,8 @@ const WebProjects = () => {
         </div>
         <div className="test_block">
         <ProjectBox hidden_link="true" img={img2} title="Responsive Dance Wesbite" quote="Interesting In Predictive Analytics" link="https://github.com/Aman-Rawat001/Fully-fledged-dance-website"/>
-        <ProjectBox hidden_link="true" img={img2} title="Machine Learning" quote="Interesting In Predictive Analytics" link="dssxz"/>
-        <ProjectBox hidden_link="true" img={img2} title="Machine Learning" quote="Interesting In Predictive Analytics" link="dssxz"/>
+        <ProjectBox hidden_link="true" img={img2} title="Blogging Wesbite" quote="A Directory Of Wonderfull Things" link="http://futuretech.epizy.com"/>
+        {/* <ProjectBox hidden_link="true" img={img2} title="Machine Learning" quote="Interesting In Predictive Analytics" link="dssxz"/> */}
         </div>
         
         </>

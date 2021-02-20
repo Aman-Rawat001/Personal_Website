@@ -3,6 +3,7 @@
     background-color: #f1563f;
     flex-direction: row;
     align-items: center;
+    height: 7vh;
 }
 .logo{
         /* margin: 25px; */

@@ -1,6 +1,17 @@
 #about_container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+.left-container{
+    background-color: #e7babf;
+    border: 1px solid rgb(17, 15, 15);
+    height: 100%;
+    width: 20%;
+}
+.right-container{
+    height: 100%;
+    width: 80%;
+    border: 1px solid black;
+
 }
