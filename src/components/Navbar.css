@@ -1,19 +1,26 @@
 .navbar{
     display: flex;
-    background-color: #f1563f;
+    background-color: white;
     flex-direction: row;
     align-items: center;
-    height: 7vh;
+    height: 54px;
+    box-shadow: 1px 1px 5px slategray;
 }
 .logo{
-        /* margin: 25px; */
         font-size: larger;
         margin-left: 46px;
         font-family: cursive;
         font-weight: 600;
-        color: white;
+        color: black;
         border-bottom: 2px solid white;
         cursor: pointer;
+}
+.navbar span{
+    padding-left: 7px;
+    border-left: 1px solid black;
+}
+.active-class{
+    border-bottom: 2px solid gray !important;
 }
 .nav-links{
     position: absolute;
@@ -24,9 +31,10 @@
     color: #5d4141;;
     font-family: sans-serif;
     font-size: larger;
-    margin: 61px;
-    font-weight: 600;
+    margin: 46px;
+    font-weight: 500;
 }
 .links:hover{
     color: black;
+    text-shadow: 0.2px 0.2px 0.2px #827373;
 }
