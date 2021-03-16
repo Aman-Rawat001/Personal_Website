@@ -1,0 +1,32 @@
+/* font styles */
+
+.font200{
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.font300{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.font400{
+    font-size: 1rem;
+    font-family: sans-serif;
+    /* font-weight: lighter; */
+}
+.font500{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    /* font-weight: lighter; */
+}
+.font600{
+    font-size: 2rem;
+    font-family: sans-serif;
+    /* font-weight: lighter; */
+}
+.font700{
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    /* font-weight: lighter; */
+}

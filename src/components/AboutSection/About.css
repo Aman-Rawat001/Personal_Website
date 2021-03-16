@@ -1,0 +1,45 @@
+.inner_container{
+    margin: 0rem 8rem;
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    background-color: gray;
+    color: white;
+}
+.about_container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid; */
+}
+.about_intro_section{
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.intro_section_content1{
+    /* padding: 2rem; */
+    /* border: 1px solid; */
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+.intro_section_content2{
+    /* padding: 2rem; */
+    margin: 0.5rem;
+    margin-left: 2rem;
+
+}
+.intro_section_content3{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    line-height: 20pt;
+}
+
+.profileImage{
+    width: 22rem;
+    padding-right: 2rem;
+    height: 27rem;
+}

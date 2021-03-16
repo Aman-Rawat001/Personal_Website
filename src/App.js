@@ -3,7 +3,7 @@ import {Switch, Route} from "react-router-dom"
 import "./styles.css"
 
 import Navbar from "./components/Navbar"
-import About from "./components/About"
+import About from "../src/components/AboutSection/About"
 import Projects from "./components/Projects"
 import Hprojects from "./components/subComp/HProjects"
 import MLprojects from "./components/subComp/MLprojects"
@@ -12,7 +12,7 @@ import WebProjects from "./components/subComp/WebProjects"
 const App = () => {
   return(
     <>
-    <Navbar />
+    {/* <Navbar /> */}
       <Switch>
         <Route exact path="/" component={About}/>
         <Route exact path="/projects" component={Projects}/>
