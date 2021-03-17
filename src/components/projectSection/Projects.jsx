@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <>
             <div className="project_container">
-                <h1 className="project_heading">My Projects</h1>
+                <h1 className="project_heading font600">PORTFOLIO</h1>
                 <div className="blocks">
                     <ProjectBox hidden_link="none" img={img2} title="Web Development" quote="Design Your Own World" link="/web-development-projects"/>
                     <ProjectBox hidden_link="none" img={img3} title="Machine Learning" quote="Interesting In Predictive Analytics" link="/machine-learning-projects"/>
