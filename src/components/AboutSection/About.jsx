@@ -6,7 +6,9 @@ import ProfileImg from "../images/profileImg1.png"
 const About = () => {
     return (
         <>
+        <div className="main_about_container">
             <div className="about_container">
+<<<<<<< Updated upstream
                 <div className="inner_container">
                     <p className="intro_section_content1 font600">Aman Rawat</p>
                     <p className="intro_section_content2 font200">Full Stact Developer</p>
@@ -18,7 +20,19 @@ const About = () => {
                             <img className="profileImage" src={ProfileImg} alt="profileImg" />
                         </div>
                     </div>
+=======
+                <div className="profileImg">
+                    <img src={ProfileImg} alt="profile image"/>
+>>>>>>> Stashed changes
                 </div>
+                <div className="right-block">
+                    <h3 className="right-block-content1 font400" >HI THERE!</h3>
+                    <h1 className="right-block-content2 font600" >I'M<span> A FULL STACK DEVELOPER</span></h1>
+                    <p className="right-block-content3 font400" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugit porro adipisci, eveniet ex laudantium perspiciatis modi? Iure qui blanditiis ut animi reiciendis! Dolor, aut. Ipsa suscipit sapiente sunt eum iste. Quo, facere esse?</p>
+                    <a  className="moreAboutBtn" href="#">MORE ABOUT ME</a>
+                    <a  className="protfolioBtn" href="#">PORTFOLIO</a>
+                </div>
+            </div>
             </div>
         </>
 

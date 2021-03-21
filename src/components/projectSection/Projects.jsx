@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Projects.css"
+import "../../../src/Assets/fontStyles.css"
 
 import ProjectBox from "../subComp/ProjectBox"
 
@@ -12,7 +13,12 @@ const Projects = () => {
     return (
         <>
             <div className="project_container">
+<<<<<<< Updated upstream
                 <h1 className="project_heading font600">PORTFOLIO</h1>
+=======
+                <h1 style={{color: "white"}} className="project_heading font600">My Projects</h1>
+                <h3 style={{color: "white", marginBottom: "1rem", lineHeight: "20pt"}} className="font200">The Directory Of The Wonderfull Things</h3>
+>>>>>>> Stashed changes
                 <div className="blocks">
                     <ProjectBox hidden_link="none" img={img2} title="Web Development" quote="Design Your Own World" link="/web-development-projects"/>
                     <ProjectBox hidden_link="none" img={img3} title="Machine Learning" quote="Interesting In Predictive Analytics" link="/machine-learning-projects"/>

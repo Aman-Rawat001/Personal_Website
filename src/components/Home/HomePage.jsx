@@ -14,7 +14,7 @@ const HomePage = () => {
         <div className="homepage-main-container">
             <div className="home-inner-container">
             <About/>
-            <Projects/>
+            {/* <Projects/> */}
             </div>
         </div>
         </>
