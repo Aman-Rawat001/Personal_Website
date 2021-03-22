@@ -40,10 +40,14 @@ body{
     width: 7rem;
     height: 2rem;
     background-color: #ffc107;
-    color: #58453f;
     font-weight: bold;
     outline: none;
     border-radius: 17px;
     font-size: 0.8rem;
 
+}
+
+.homepage_btn2 a, .homepage_btn1 a{
+    text-decoration: none;
+    color: #58453f;
 }
