@@ -2,6 +2,9 @@ import React from "react"
 import "./about.css"
 import profileImg from "../images/about_section_profile.jpg"
 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { fa } from '@fortawesome/free-solid-svg-icons'
+
 const About = () => {
     return(
         <>
@@ -54,10 +57,14 @@ const About = () => {
             <progress id="file" value="45" max="100"> 32% </progress>
             </div>
             </div>
-            </div>
-            </div>
 
 
+        <div className="socialMedia">
+        {/* <FontAwesomeIcon icon="fa-facebook-f" /> */}
+            </div>
+
+            </div>
+            </div>
             <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a>
 
         </>
