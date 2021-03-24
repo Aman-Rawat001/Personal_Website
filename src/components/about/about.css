@@ -69,6 +69,15 @@
     font-family: cursive;
     left: 1.5rem;
 }
-.skills_progressBar progress{
-    
+.skills_progressBar progress{   
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia .socialIcons{
+    font-size: 2rem;
+    margin: 1rem;
 }
