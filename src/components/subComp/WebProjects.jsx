@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Hprojects.css"
+import Footer from "../Footer/Footer"
+
 
 import ProjectBox from"./ProjectBox"
 import img2 from "../images/img2.jpg"
@@ -18,7 +20,8 @@ const WebProjects = () => {
         <ProjectBox hidden_link="true" img={img2} title="Blogging Wesbite" quote="A Directory Of Wonderfull Things" link="http://futuretech.epizy.com"/>
         {/* <ProjectBox hidden_link="true" img={img2} title="Machine Learning" quote="Interesting In Predictive Analytics" link="dssxz"/> */}
         </div>
-        <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a>
+        <Footer/>
+        {/* <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a> */}
         </>
     )
 }

@@ -1,6 +1,9 @@
 import React from "react"
 import "./about.css"
 import profileImg from "../images/about_section_profile.jpg"
+import Footer from "../Footer/Footer"
+import Navbar from "../navbar/Navbar"
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -12,6 +15,7 @@ const About = () => {
             <div className="about_title">
                 <h1>About Page</h1>
             </div>
+            <Navbar/>
 
             <div className="about_container">
                 <img className="profileImg" src={profileImg} alt="profile image" />
@@ -59,18 +63,21 @@ const About = () => {
                         </div>
                     </div>
 
-
+                    <div className="social">
+                        <h3>Social Media Handles</h3>
                     <div className="socialMedia">
-                        <FontAwesomeIcon className="socialIcons" icon={faFacebook} />
-                        <FontAwesomeIcon className="socialIcons" icon={faInstagram} />
-                        <FontAwesomeIcon className="socialIcons" icon={faGithub} />
-                        <FontAwesomeIcon className="socialIcons" icon={faLinkedin} />
+                        <a target="_blank"  href="https://www.facebook.com/profile.php?id=100014344083429"><FontAwesomeIcon className="socialIcons" icon={faFacebook} /></a>
+                        <a target="_blank" href="https://www.instagram.com/aman_rawat0123/"><FontAwesomeIcon className="socialIcons" icon={faInstagram} /></a>
+                        <a target="_blank"  href="https://github.com/Aman-Rawat001"><FontAwesomeIcon className="socialIcons" icon={faGithub} /></a>
+                        <a target="_blank"  href="https://www.linkedin.com/in/aman-rawat-578b21193"><FontAwesomeIcon className="socialIcons" icon={faLinkedin} /></a>
+                        {/* <a href=""><FontAwesomeIcon className="socialIcons" icon={faLinkedin} /></a> */}
+                    </div>
                     </div>
 
                 </div>
             </div>
-            <a style={{ border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem" }} href="/">Go Back</a>
-
+            {/* <a style={{ border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem" }} href="/">Go Back</a> */}
+            <Footer/>
         </>
     )
 }

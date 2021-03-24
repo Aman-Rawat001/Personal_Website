@@ -3,6 +3,8 @@ import "./Hprojects.css"
 
 import ProjectBox from"./ProjectBox"
 import img1 from "../images/img1.jpg"
+import Footer from "../Footer/Footer"
+
 
 const Hprojects = () => {
     return(
@@ -16,8 +18,8 @@ const Hprojects = () => {
         </div>
         <div className="test_block">
         </div>
-        <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a>
-
+        {/* <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a> */}
+        <Footer/>
         </>
         
     )

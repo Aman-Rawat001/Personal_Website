@@ -15,7 +15,7 @@ const ProjectBox = (props) => {
                     <p className="block_quote">{props.quote}</p>
                 </div>
                 <button style={temp === "true" ? {display: "none"} : {display: "block"}} onClick={()=>history.push(props.link)} id="block_link">Click Here</button>
-                <a target="_blank" style={temp === "none" ? {display: "none"} : {display: "block"}} className="hidden_link" href={props.link}>Access Code</a>
+                {/* <a target="_blank" style={temp === "none" ? {display: "none"} : {display: "block"}} className="hidden_link" href={props.link}>Access Code</a> */}
             </div>
         </>
     )

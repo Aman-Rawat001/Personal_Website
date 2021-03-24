@@ -3,6 +3,8 @@ import "./Hprojects.css"
 
 import ProjectBox from"./ProjectBox"
 import img3 from "../images/img3.jpg"
+import Footer from "../Footer/Footer"
+
 
 const MLprojects = () => {
     return(
@@ -16,7 +18,8 @@ const MLprojects = () => {
         <ProjectBox hidden_link="true" img={img3} title="Face Detectiona & Recognition" quote="Interesting In Predictive Analytics" link="https://github.com/Aman-Rawat001/Face-Recognition"/>
         <ProjectBox hidden_link="true" img={img3} title="Smart Security Camera(OpenCV)" quote="Interesting In Predictive Analytics" link="https://github.com/Aman-Rawat001/Security-camera-OpenCV"/>
         </div>
-        <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a>
+        {/* <a style={{border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem"}} href="/">Go Back</a> */}
+        <Footer/>
         </>
     )
 }

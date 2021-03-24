@@ -1,12 +1,13 @@
 import React from "react"
 import "./HomePageStyles.css"
 import profileImage from "../images/croped-image.jpg"
-// import Navbar from "../../components/Navbar/Navbar"
+import Navbar from "../navbar/Navbar"
+
 
 const HomePage = () => {
     return(
         <>
-            {/* <Navbar/> */}
+            <Navbar/>
             <div className="main_container">
                 <img className="profileImage" src={profileImage} alt="profileimage"/>
                 <div>
