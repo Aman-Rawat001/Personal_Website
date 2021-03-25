@@ -17,28 +17,46 @@ body{
 .homepage_content1{
     text-align: center;
     margin: 4px;
-    font-family: cursive;
+    font-family: system-ui;
     margin-top: 30px;
     padding: 4px;
     font-size: 1.5rem;
 }
-.homepage_content1 span{
+.homepage_content1 .wia{
     color: #ff5722;
+    /* transition: display 0.5s ease-in-out; */
 }
+
+.homepage_content1 .wia {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 .homepage_btn_div{
     display: flex;
 }
 .homepage_content2{
     text-align: center;
-    font-family: cursive;
+    font-family: system-ui;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .homepage_btn1, .homepage_btn2{
     margin: 1rem;
-    width: 7rem;
-    height: 2rem;
+    width: 7.4rem;
+    height: 2.3rem;
+    border: 2px solid gray;
     background-color: #ffc107;
     font-weight: bold;
     outline: none;

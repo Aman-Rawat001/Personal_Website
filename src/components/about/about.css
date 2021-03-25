@@ -1,5 +1,5 @@
 .about_title{
-    font-family: cursive;
+    font-family: system-ui;
     margin-bottom: 1rem;
     text-align: center;
     border-bottom: 1px solid #58453f;
@@ -13,7 +13,7 @@
 }
 .about_content1, .about_content2{
     text-align: left;
-    font-family: cursive;
+    font-family: system-ui;
     font-size: 1rem;
 }
 .about_content2 span{
@@ -37,7 +37,7 @@
 }
 .experience h3, .skills_title h3{
     text-align: left;
-    font-family: cursive;
+    font-family: system-ui;
     font-size: 1rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -52,7 +52,7 @@
     line-height: 20pt;
     margin-bottom: 1rem;
     text-align: left;
-    font-family: cursive;
+    font-family: system-ui;
     font-size: 1rem;
 }
 .skills{
@@ -67,7 +67,7 @@
 }
 .skills_progressBar label{
     position: absolute;
-    font-family: cursive;
+    font-family: system-ui;
     left: 1.5rem;
 }
 .skills_progressBar progress{   
@@ -88,7 +88,7 @@
     cursor: pointer;
 }
 .social h3{
-    font-family: cursive;
+    font-family: system-ui;
     margin-bottom: 1rem;
     text-align: center;
     border-bottom: 1px solid #58453f;
