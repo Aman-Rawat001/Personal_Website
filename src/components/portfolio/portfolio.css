@@ -2,7 +2,7 @@ body{
     background-color: #e5e5e5;
 }
 .portfolio_title{
-    font-family: cursive;
+    font-family: system-ui;
     margin-bottom: 1rem;
     text-align: center;
     border-bottom: 1px solid #58453f;

@@ -5,6 +5,7 @@ import About from "./components/about/About"
 import Hprojects from "./components/subComp/HProjects"
 import MLprojects from "./components/subComp/MLprojects"
 import WebProjects from "./components/subComp/WebProjects"
+import Contact from "./components/contact/Contact"
 
 import "./styles.css"
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/hacking-projects" component={Hprojects}/> 
         <Route exact path="/machine-learning-projects" component={MLprojects}/>
         <Route exact path="/web-development-projects" component={WebProjects}/>
+        <Route exact path="/contact" component={Contact}/>
       </Switch>
     </>
   )
