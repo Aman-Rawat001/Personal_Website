@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Hprojects.css"
 import Footer from "../Footer/Footer"
+import Navbar from "../navbar/Navbar"
 
 
 import ProjectBox from"./ProjectBox"
@@ -12,6 +13,7 @@ const WebProjects = () => {
         <div className="webProjects_title">
             <h1>Web Projects</h1>
         </div>
+        <Navbar/>
         <div className="blocks">
         <ProjectBox hidden_link="true" img={img2} title="Instagram Post Creator" quote="That's Why Hackers Always Win" link="https://github.com/Aman-Rawat001/InstaPostCreator-v2.0"/>
         <ProjectBox hidden_link="true" img={img2} title="Website Pricing Template" quote="Design Your Own World" link="https://github.com/Aman-Rawat001/Pricing-Template-For-Websites"/>

@@ -21,7 +21,7 @@ const About = () => {
                 <img className="profileImg" src={profileImg} alt="profile image" />
                 <div className="about_content_div">
                     <p className="about_content1">Hey</p>
-                    <p className="about_content2">This is <span id="name">Aman Rawat</span> from Dehradun Uttrakhand. Currently i'am pursuing B.tech C.S.E from Graphic Era Hill University(GEHU).</p>
+                    <p className="about_content2">This is <span id="name">Aman Rawat</span> from Dehradun Uttarakhand. Currently pursuing B.tech C.S.E from Graphic Era Hill University(GEHU).</p>
                     <div className="experience">
                         <h3>Working Experience In Companies</h3>
                         <h5>@Sunfox Pvt Ltd: <span>Currently i am working with Sunfox pvt-Ltd as a Full Stack Developer since 3 months. </span></h5>
@@ -51,7 +51,11 @@ const About = () => {
                         </div>
                         <div className="skills_progressBar">
                             <label for="file">NodeJs:</label>
-                            <progress id="file" value="50" max="100"> 32% </progress>
+                            <progress id="file" value="50" max="100"> 42% </progress>
+                        </div>
+                        <div className="skills_progressBar">
+                            <label for="file">ExpressJs:</label>
+                            <progress id="file" value="50" max="100"> 40% </progress>
                         </div>
                         <div className="skills_progressBar">
                             <label for="file">OpenCV:</label>

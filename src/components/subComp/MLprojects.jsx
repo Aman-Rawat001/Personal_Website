@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Hprojects.css"
+import Navbar from "../navbar/Navbar"
+
 
 import ProjectBox from"./ProjectBox"
 import img3 from "../images/img3.jpg"
@@ -12,6 +14,7 @@ const MLprojects = () => {
         <div className="mlProjects_title">
             <h1>ML Projects</h1>
         </div>
+        <Navbar/>
         <div className="blocks">
         <ProjectBox hidden_link="true" img={img3} title="Live Moment Tracking" quote="That's Why Hackers Always Win" link="https://github.com/Aman-Rawat001/Live-moment-tracking-in-ML"/>
         <ProjectBox hidden_link="true" img={img3} title="Object Detection Using Color" quote="Design Your Own World" link="https://github.com/Aman-Rawat001/Object-detection-using-color-control"/>

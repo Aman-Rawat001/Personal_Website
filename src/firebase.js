@@ -2,7 +2,7 @@ import firebase from "firebase";
 import "firebase/storage";
 
 const config = {
- apiKey: "AIzaSyDQA06nEyN0elKu7Megt8oK_ReGk6COc64",
+    apiKey: "AIzaSyDQA06nEyN0elKu7Megt8oK_ReGk6COc64",
     authDomain: "profile-website-3cadb.firebaseapp.com",
     databaseURL: "https://profile-website-3cadb-default-rtdb.firebaseio.com",
     projectId: "profile-website-3cadb",

@@ -22,12 +22,11 @@ body{
     padding: 4px;
     font-size: 1.5rem;
 }
-.homepage_content1 .wia{
+/* .homepage_content1 .wia{
     color: #ff5722;
-    /* transition: display 0.5s ease-in-out; */
-}
+} */
 
-.homepage_content1 .wia {
+/* .homepage_content1 .wia {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -40,7 +39,7 @@ body{
     100% {
         opacity: 1;
      }
-}
+} */
 
 .homepage_btn_div{
     display: flex;
@@ -61,11 +60,19 @@ body{
     font-weight: bold;
     outline: none;
     border-radius: 17px;
-    font-size: 0.8rem;
-
+    font-size: 0.85rem;
+}
+.homepage_btn1:hover, .homepage_btn2:hover{
+    color: black;
+    background-color: rgb(238, 224, 34);
+    
 }
 
 .homepage_btn2 a, .homepage_btn1 a{
     text-decoration: none;
     color: #58453f;
+}
+
+.txt-rotate{
+    color: #ff5722;
 }
