@@ -95,3 +95,22 @@
     display: inline-block;
     margin-top: 3rem;
 }
+
+.eSoftwares{
+    text-align: left;
+    font-family: system-ui;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.eSoftwares h3{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.eSoftwares p{
+    margin-bottom: 0.5rem;
+}
+#showBtn{
+    color: blue;
+}
