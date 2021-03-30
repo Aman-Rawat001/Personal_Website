@@ -16,8 +16,8 @@ const Navbar = () => {
 
     <ul id="menu">
       <a href="/"><li>Home</li></a>
-      <a href="/about"><li>About</li></a>
-      <a href="/portfolio"><li>Portfolio</li></a>
+      <a href="/Portfolio"><li>Portfolio</li></a>
+      <a href="/projects"><li>Projects</li></a>
       <a href="/contact"><li>Contact Me</li></a>
       <a target="_blank" href="http://futuretech.epizy.com"><li>Blog</li></a>
     </ul>

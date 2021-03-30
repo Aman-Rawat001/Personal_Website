@@ -1,0 +1,17 @@
+body{
+    background-color: #e5e5e5;
+}
+.portfolio_title{
+    font-family: system-ui;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #58453f;
+    background-color: #ffc107;
+    color: #58453f;
+}
+.portfolio_boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -24,7 +24,7 @@ const About = () => {
     return (
         <>
             <div className="about_title">
-                <h1>About Page</h1>
+                <h1>PORTFOLIO</h1>
             </div>
             <Navbar />
 

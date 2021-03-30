@@ -86,8 +86,8 @@ const HomePage = () => {
                     <p className="homepage_content2">“Instead of freaking out about these constraints, embrace them. Let them guide you. Constraints drive innovation and force focus. Instead of trying to remove them, use them to your advantage.”</p>
                 </div>
                 <div className="homepage_btn_div">
-                    <button className="homepage_btn1"><a href="about">More About Me</a></button>
-                    <button className="homepage_btn2"><a href="portfolio">Portfolio</a></button>
+                    <button className="homepage_btn1"><a href="portfolio">Portfolio</a></button>
+                    <button className="homepage_btn2"><a href="projects">Projects</a></button>
                 </div>
             </div>
         </>
