@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./HomePageStyles.css";
 import profileImage from "../images/croped-image.jpg";
+import blob from "../images/blob.svg";
 import Navbar from "../navbar/Navbar";
 import Characters from "../animation/Characters";
 
@@ -78,7 +79,8 @@ const HomePage = () => {
     <>
       <Navbar />
       <div className="main_container">
-        <img className="profileImage" src={profileImage} alt="profileimage" />
+        {/* <img className="profileImage" src={profileImage} alt="profileimage" /> */}
+        <img className="profileImage" src={blob} alt="profileimage" />
         <div>
           <h1 className="homepage_content1">
             I'AM <span>{leftArrow}</span>
