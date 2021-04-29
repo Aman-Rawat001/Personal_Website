@@ -185,6 +185,7 @@ const About = () => {
         </div>
       </div>
       {/* <a style={{ border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem" }} href="/">Go Back</a> */}
+
       <Footer />
     </>
   );
