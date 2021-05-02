@@ -4,7 +4,7 @@ import profileImage from "../images/croped-image.jpg";
 import Navbar from "../navbar/Navbar";
 // import { counter } from "@fortawesome/fontawesome-svg-core;
 import Footer from "../Footer/Footer";
-import PopUp_form from "./PopUp_form/PopUp_form";
+// import PopUp_form from "./PopUp_form/PopUp_form";
 
 const HomePage = () => {
   // const [whoIam, setWhoIam] = useState(" ");
@@ -78,7 +78,7 @@ const HomePage = () => {
 
   return (
     <>
-      <PopUp_form />
+      {/* <PopUp_form /> */}
       <Navbar />
       <div className="main_container">
         <img className="profileImage" src={profileImage} alt="profileimage" />
