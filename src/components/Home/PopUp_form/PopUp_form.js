@@ -3,6 +3,7 @@ import "./PopUp_form.css";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import firebase from "../../../firebase";
+import Characters from "../../animation/Characters";
 
 // import  from "@fortawesome/react-fontawesome"
 
@@ -45,6 +46,9 @@ const PopUp_form = () => {
 
   return (
     <>
+      <div style={{ display: `${submit_status}` }}>
+        <Characters />
+      </div>
       <div className="popUp_bg" style={{ display: `${submit_status}` }}></div>
       <div className="popUp_container" style={{ display: `${submit_status}` }}>
         <h6 className="faIcon">
