@@ -3,6 +3,7 @@ import "./about.css";
 import profileImg from "../images/about_section_profile.jpg";
 import Footer from "../Footer/Footer";
 import Navbar from "../navbar/Navbar";
+import Characters from "../animation/Characters";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

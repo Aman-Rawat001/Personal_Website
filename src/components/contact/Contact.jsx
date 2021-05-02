@@ -20,7 +20,7 @@ const Contact = () => {
         message: message,
       })
       .then(() => {
-        alert("Your Message had been submitted to Aman Rawat.");
+        alert("Your Message has been submitted to Aman Rawat.");
       })
       .catch((error) => {
         alert(error.message);
