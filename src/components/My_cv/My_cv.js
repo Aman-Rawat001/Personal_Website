@@ -2,7 +2,7 @@ import React from "react";
 import "./My_cv.css";
 import jsPDF from "jspdf";
 import cv_pdf from "../images/Aman_rawat_cv.jpg";
-import Navbar from "../navbar/Navbar";
+// import Navbar from "../navbar/Navbar";
 
 const My_cv = () => {
   const pdfGenerate = () => {
@@ -12,7 +12,7 @@ const My_cv = () => {
   };
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="downloadCV_container">
         <br />
         <button onClick={pdfGenerate}>Download CV</button>

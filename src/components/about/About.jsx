@@ -3,6 +3,7 @@ import "./about.css";
 import profileImg from "../images/about_section_profile.jpg";
 import Footer from "../Footer/Footer";
 import Navbar from "../navbar/Navbar";
+import My_cv from "../My_cv/My_cv";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -184,6 +185,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <My_cv />
       {/* <a style={{ border: "2px solid red", position: "absolute", left: "45%", color: "black", padding: "0.5rem" }} href="/">Go Back</a> */}
       <Footer />
     </>

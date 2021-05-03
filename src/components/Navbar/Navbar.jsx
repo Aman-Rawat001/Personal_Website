@@ -28,8 +28,8 @@ const Navbar = () => {
             <a target="_blank" href="http://futuretech.epizy.com">
               <li>Blog</li>
             </a>
-            <a href="/download_CV">
-              <li>download CV</li>
+            <a href="/live_tools">
+              <li>Live Tools</li>
             </a>
           </ul>
         </div>

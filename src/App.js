@@ -6,7 +6,7 @@ import Hprojects from "./components/subComp/HProjects";
 import MLprojects from "./components/subComp/MLprojects";
 import WebProjects from "./components/subComp/WebProjects";
 import Contact from "./components/contact/Contact";
-import My_cv from "./components/My_cv/My_cv";
+import Live_tools from "./components/Tools/Tools";
 
 import "./styles.css";
 
@@ -24,7 +24,7 @@ const App = () => {
         <Route exact path="/machine-learning-projects" component={MLprojects} />
         <Route exact path="/web-development-projects" component={WebProjects} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/Download_CV" component={My_cv} />
+        <Route exact path="/live_tools" component={Live_tools} />
       </Switch>
     </>
   );
