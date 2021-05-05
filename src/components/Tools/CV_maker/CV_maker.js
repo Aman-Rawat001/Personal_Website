@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import jsPDF from "jspdf";
 import "./CV_maker.css";
+import PrintPdf from "./PrintPdf/PrintPdf";
 import ShowPdf from "./ShowPdf/ShowPdf";
 
 const CV_maker = () => {
@@ -9,6 +10,16 @@ const CV_maker = () => {
     lname: " ",
     desig: " ",
     email: " ",
+    skill1: " ",
+    skill2: " ",
+    skill3: " ",
+    skill4: " ",
+    skill5: " ",
+    profileDesc: " ",
+    clgName: " ",
+    clgLoc: " ",
+    compDesig: " ",
+    compName: " ",
   });
 
   const handleChange = (e) => {
@@ -55,21 +66,39 @@ const CV_maker = () => {
         <div>
           <h4>Profile</h4>
           <p>Profile Description </p>
-          <textarea />
+          <textarea
+            onChange={handleChange}
+            value={info.profileDesc}
+            name="profileDesc"
+          />
         </div>
       </div>
       <div className="educ_info info_div">
         <h4>Education</h4>
         <p>College Name</p>
-        <textarea />
+        <input onChange={handleChange} value={info.clgName} name="clgName" />
+        <p>Location</p>
+        <input onChange={handleChange} value={info.clgLoc} name="clgLoc" />
       </div>
       <div className="employHistory info_div">
         <h4>Employment History</h4>
         <div>
-          <label>Designation :</label>
-          <input />
-          <label>Company Name</label>
-          <input />
+          <div>
+            <label>Designation :</label>
+            <input
+              onChange={handleChange}
+              value={info.compDesig}
+              name="compDesig"
+            />
+          </div>
+          <div>
+            <label>Company Name :</label>
+            <input
+              onChange={handleChange}
+              value={info.compName}
+              name="compName"
+            />
+          </div>
         </div>
       </div>
       <div className="skillSet info_div">
@@ -78,54 +107,96 @@ const CV_maker = () => {
         </div>
         <div>
           <label>Skill-1 :</label>
-          <input />
+          <input
+            type="text"
+            value={info.skill1}
+            onChange={handleChange}
+            name="skill1"
+          />
         </div>
-        <div>
-          <label>%</label>
-          <input />
-        </div>
+
         <div>
           <label>Skill-2 :</label>
-          <input />
+          <input
+            type="text"
+            value={info.skill2}
+            onChange={handleChange}
+            name="skill2"
+          />
         </div>
-        <div>
-          <label>%</label>
-          <input />
-        </div>
+
         <div>
           <label>Skill-3 :</label>
-          <input />
+          <input
+            type="text"
+            value={info.skill3}
+            onChange={handleChange}
+            name="skill3"
+          />
         </div>
-        <div>
-          <label>%</label>
-          <input />
-        </div>
+
         <div>
           <label>Skill-4 :</label>
-          <input />
+          <input
+            type="text"
+            value={info.skill4}
+            onChange={handleChange}
+            name="skill4"
+          />
         </div>
-        <div>
-          <label>%</label>
-          <input />
-        </div>
+
         <div>
           <label>Skill-5 :</label>
-          <input />
-        </div>
-        <div>
-          <label>%</label>
-          <input />
+          <input
+            type="text"
+            value={info.skill5}
+            onChange={handleChange}
+            name="skill5"
+          />
         </div>
       </div>
 
       {/* content which has to print */}
-      <div id="print_content">
-        <ShowPdf
-          fname={info.fname}
-          lname={info.lname}
-          desig={info.desig}
-          email={info.email}
-        />
+      <div className="printPdf_container">
+        <div id="print_content">
+          <PrintPdf
+            fname={info.fname}
+            lname={info.lname}
+            desig={info.desig}
+            email={info.email}
+            skill1={info.skill1}
+            skill2={info.skill2}
+            skill3={info.skill3}
+            skill4={info.skill4}
+            skill5={info.skill5}
+            profileDesc={info.profileDesc}
+            clgName={info.clgName}
+            clgLoc={info.clgLoc}
+            compDesig={info.compDesig}
+            compName={info.compName}
+          />
+        </div>
+      </div>
+      {/* content which has to show on screen */}
+      <div className="showPdf_container_main">
+        <div className="">
+          <ShowPdf
+            fname={info.fname}
+            lname={info.lname}
+            desig={info.desig}
+            email={info.email}
+            skill1={info.skill1}
+            skill2={info.skill2}
+            skill3={info.skill3}
+            skill4={info.skill4}
+            skill5={info.skill5}
+            profileDesc={info.profileDesc}
+            clgName={info.clgName}
+            clgLoc={info.clgLoc}
+            compDesig={info.compDesig}
+            compName={info.compName}
+          />
+        </div>
       </div>
 
       {/* generate button */}

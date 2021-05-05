@@ -1,5 +1,17 @@
-#print_content {
-  border: 1px solid;
+.printPdf_container {
+  display: none;
+  /* border: 2px solid yellow; */
+}
+
+.showPdf_container_main {
+  /* border: 1px solid #282828; */
+  background-color: white;
+  margin-top: 2rem;
+  height: 48vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  border: 1px solid #d0c8c8;
 }
 .info_btns {
   margin-top: 2rem;

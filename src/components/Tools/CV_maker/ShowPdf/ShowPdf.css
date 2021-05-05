@@ -1,4 +1,14 @@
-.showPdf_container {
+.ShowPdf_container {
   padding-left: 2rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
+  font-size: 0.6rem;
+  display: flex;
+}
+.ShowPdf_container .Box {
+  border: 1px solid;
+}
+
+.ShowPdf_container .profileDesc p {
+  /* max-width: 60%; */
+  /* border: 1px solid; */
 }
