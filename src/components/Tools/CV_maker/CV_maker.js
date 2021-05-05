@@ -18,8 +18,14 @@ const CV_maker = () => {
     profileDesc: " ",
     clgName: " ",
     clgLoc: " ",
+    clgJdate: " ",
+    clgEdate: " ",
+    clgCourse: " ",
     compDesig: " ",
     compName: " ",
+    compLoc: " ",
+    compJdate: " ",
+    compEdate: " ",
   });
 
   const handleChange = (e) => {
@@ -73,13 +79,35 @@ const CV_maker = () => {
           />
         </div>
       </div>
+      {/* Education details */}
       <div className="educ_info info_div">
         <h4>Education</h4>
         <p>College Name</p>
         <input onChange={handleChange} value={info.clgName} name="clgName" />
+        <p>Course</p>
+        <input
+          onChange={handleChange}
+          value={info.clgCourse}
+          name="clgCourse"
+        />
         <p>Location</p>
         <input onChange={handleChange} value={info.clgLoc} name="clgLoc" />
+        <p>Joining Date</p>
+        <input
+          onChange={handleChange}
+          type="date"
+          value={info.clgJdate}
+          name="clgJdate"
+        />
+        <p>Ending Date</p>
+        <input
+          onChange={handleChange}
+          type="date"
+          value={info.clgEdate}
+          name="clgEdate"
+        />
       </div>
+      {/* Employment history */}
       <div className="employHistory info_div">
         <h4>Employment History</h4>
         <div>
@@ -99,8 +127,35 @@ const CV_maker = () => {
               name="compName"
             />
           </div>
+          <div>
+            <label>Location :</label>
+            <input
+              onChange={handleChange}
+              value={info.compLoc}
+              name="compLoc"
+            />
+          </div>
+          <div>
+            <label>Joining Date :</label>
+            <input
+              type="date"
+              onChange={handleChange}
+              value={info.compJdate}
+              name="compJdate"
+            />
+          </div>
+          <div>
+            <label>Ending Date :</label>
+            <input
+              type="date"
+              onChange={handleChange}
+              value={info.compEdate}
+              name="compEdate"
+            />
+          </div>
         </div>
       </div>
+      {/* SkillSet Information */}
       <div className="skillSet info_div">
         <div>
           <h4>Skills</h4>
@@ -172,8 +227,14 @@ const CV_maker = () => {
             profileDesc={info.profileDesc}
             clgName={info.clgName}
             clgLoc={info.clgLoc}
+            clgJdate={info.clgJdate}
+            clgEdate={info.clgEdate}
+            clgCourse={info.clgCourse}
             compDesig={info.compDesig}
             compName={info.compName}
+            compJdate={info.compJdate}
+            compEdate={info.compEdate}
+            compLoc={info.compLoc}
           />
         </div>
       </div>
@@ -193,8 +254,14 @@ const CV_maker = () => {
             profileDesc={info.profileDesc}
             clgName={info.clgName}
             clgLoc={info.clgLoc}
+            clgJdate={info.clgJdate}
+            clgEdate={info.clgEdate}
+            clgCourse={info.clgCourse}
             compDesig={info.compDesig}
             compName={info.compName}
+            compJdate={info.compJdate}
+            compEdate={info.compEdate}
+            compLoc={info.compLoc}
           />
         </div>
       </div>

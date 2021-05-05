@@ -2,13 +2,68 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 0.6rem;
-  display: flex;
+  font-family: system-ui;
 }
-.ShowPdf_container .Box {
-  border: 1px solid;
+.ShowPdf_container .flexContainer {
+  display: flex;
+  /* border: 1px solid; */
 }
 
-.ShowPdf_container .profileDesc p {
-  /* max-width: 60%; */
-  /* border: 1px solid; */
+.ShowPdf_container .profileDesc h3,
+.ShowPdf_container .educationInfo h3,
+.ShowPdf_container .empHistory h3,
+.ShowPdf_container .skillSet .skills_heading h3 {
+  color: #0072ff;
+}
+.ShowPdf_container .personalDetails img {
+  width: 2rem;
+  margin-right: 1rem;
+  border-radius: 20px;
+}
+
+.ShowPdf_container .educationInfo,
+.ShowPdf_container .empHistory,
+.ShowPdf_container .profileDesc {
+  margin-top: 1rem;
+  /* margin-left: 1rem; */
+}
+.ShowPdf_container .profileDesc {
+  margin-top: 2.5rem;
+}
+.ShowPdf_container .profileDesc p,
+.ShowPdf_container .educationInfo div,
+.ShowPdf_container .empHistory div {
+  margin-top: 2px;
+}
+.ShowPdf_container .educationInfo .eduContent1,
+.ShowPdf_container .empHistory .empContent1 {
+  font-weight: bold;
+}
+
+.ShowPdf_container .personalDetails .fname {
+  color: gray;
+}
+.ShowPdf_container .flexContainer .email h4 {
+  margin-left: 5px;
+}
+.ShowPdf_container .personalDetails {
+}
+.ShowPdf_container .flexContainer .email {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  align-items: center;
+  font-size: 8px;
+  font-family: monospace;
+}
+
+.ShowPdf_container .skillSet {
+  margin-top: 1rem;
+  line-height: 1rem;
+}
+
+.ShowPdf_container .personalDetails .description {
+  color: gray;
+  font-family: monospace;
+  font-size: 0.5rem;
 }
