@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import jsPDF from "jspdf";
 import "./CV_maker.css";
-import PrintPdf from "./PrintPdf/PrintPdf";
+// import PrintPdf from "./PrintPdf/PrintPdf";
+// import PrintPdf, { ComponentToPrint } from "./PrintPdf/PrintPdf";
 import ShowPdf from "./ShowPdf/ShowPdf";
 
 const CV_maker = () => {
@@ -15,6 +16,11 @@ const CV_maker = () => {
     skill3: " ",
     skill4: " ",
     skill5: " ",
+    skill1Progress: " ",
+    skill2Progress: " ",
+    skill3Progress: " ",
+    skill4Progress: " ",
+    skill5Progress: " ",
     profileDesc: " ",
     clgName: " ",
     clgLoc: " ",
@@ -27,6 +33,15 @@ const CV_maker = () => {
     compJdate: " ",
     compEdate: " ",
   });
+  const [display, setDisplay] = useState("none");
+  const [showPdfText, setShowPdfText] = useState("Show CV");
+
+  const handleShowPdf = () => {
+    display === "none" ? setDisplay("block") : setDisplay("none");
+    showPdfText === "Show CV"
+      ? setShowPdfText("Hide CV")
+      : setShowPdfText("Show CV");
+  };
 
   const handleChange = (e) => {
     var { name, value } = e.target;
@@ -36,12 +51,19 @@ const CV_maker = () => {
     }));
   };
   const generatePDF = () => {
-    var doc = new jsPDF("p", "pt", "a4");
-    doc.html(document.querySelector("#print_content"), {
-      callback: function (pdf) {
-        pdf.save("myPDF.pdf");
-      },
-    });
+    // var doc = new jsPDF("p", "pt", "a4");
+    // doc.html(document.querySelector("#print_content"), {
+    //   callback: function (pdf) {
+    //     pdf.save("myPDF.pdf");
+    //   },
+    // });
+    var doc = new jsPDF("landscape", "px", "a4", "false");
+    doc.text(
+      "Opps! This tool is not completed yet, work in progress...",
+      0.5,
+      0.5
+    );
+    doc.save("error_CV.pdf");
   };
 
   return (
@@ -168,6 +190,15 @@ const CV_maker = () => {
             onChange={handleChange}
             name="skill1"
           />
+          <div>
+            <label>%</label>
+            <input
+              type="number"
+              value={info.skill1Progress}
+              onChange={handleChange}
+              name="skill1Progress"
+            />
+          </div>
         </div>
 
         <div>
@@ -178,6 +209,15 @@ const CV_maker = () => {
             onChange={handleChange}
             name="skill2"
           />
+          <div>
+            <label>%</label>
+            <input
+              type="number"
+              value={info.skill2Progress}
+              onChange={handleChange}
+              name="skill2Progress"
+            />
+          </div>
         </div>
 
         <div>
@@ -188,6 +228,15 @@ const CV_maker = () => {
             onChange={handleChange}
             name="skill3"
           />
+          <div>
+            <label>%</label>
+            <input
+              type="number"
+              value={info.skill3Progress}
+              onChange={handleChange}
+              name="skill3Progress"
+            />
+          </div>
         </div>
 
         <div>
@@ -198,6 +247,15 @@ const CV_maker = () => {
             onChange={handleChange}
             name="skill4"
           />
+          <div>
+            <label>%</label>
+            <input
+              type="number"
+              value={info.skill4Progress}
+              onChange={handleChange}
+              name="skill4Progress"
+            />
+          </div>
         </div>
 
         <div>
@@ -208,11 +266,20 @@ const CV_maker = () => {
             onChange={handleChange}
             name="skill5"
           />
+          <div>
+            <label>%</label>
+            <input
+              type="number"
+              value={info.skill5Progress}
+              onChange={handleChange}
+              name="skill5Progress"
+            />
+          </div>
         </div>
       </div>
 
       {/* content which has to print */}
-      <div className="printPdf_container">
+      {/* <div className="printPdf_container">
         <div id="print_content">
           <PrintPdf
             fname={info.fname}
@@ -224,6 +291,11 @@ const CV_maker = () => {
             skill3={info.skill3}
             skill4={info.skill4}
             skill5={info.skill5}
+            skill1Progress={info.skill1Progress}
+            skill2Progress={info.skill2Progress}
+            skill3Progress={info.skill3Progress}
+            skill4Progress={info.skill4Progress}
+            skill5Progress={info.skill5Progress}
             profileDesc={info.profileDesc}
             clgName={info.clgName}
             clgLoc={info.clgLoc}
@@ -237,9 +309,9 @@ const CV_maker = () => {
             compLoc={info.compLoc}
           />
         </div>
-      </div>
+      </div> */}
       {/* content which has to show on screen */}
-      <div className="showPdf_container_main">
+      <div className="showPdf_container_main" style={{ display: `${display}` }}>
         <div className="">
           <ShowPdf
             fname={info.fname}
@@ -251,6 +323,11 @@ const CV_maker = () => {
             skill3={info.skill3}
             skill4={info.skill4}
             skill5={info.skill5}
+            skill1Progress={info.skill1Progress}
+            skill2Progress={info.skill2Progress}
+            skill3Progress={info.skill3Progress}
+            skill4Progress={info.skill4Progress}
+            skill5Progress={info.skill5Progress}
             profileDesc={info.profileDesc}
             clgName={info.clgName}
             clgLoc={info.clgLoc}
@@ -269,11 +346,11 @@ const CV_maker = () => {
       {/* generate button */}
       <div className="info_btns">
         <div className="show_pdf">
-          <button>show_pdf</button>
+          <button onClick={handleShowPdf}>{showPdfText}</button>
         </div>
         <div className="generate_pdf">
           <button onClick={generatePDF} type="primary">
-            Generate PDF
+            Download CV
           </button>
         </div>
       </div>

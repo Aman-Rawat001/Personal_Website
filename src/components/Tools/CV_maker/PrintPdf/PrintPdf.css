@@ -1,6 +1,92 @@
-.printPdf_box {
-  padding: 2rem;
+.PrintPdf_container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* font-size: 0.6rem; */
+  font-family: system-ui;
 }
-.profileDesc {
-  /* width: 100vw; */
+.PrintPdf_container .flexContainer {
+  display: flex;
+  /* border: 1px solid; */
+}
+.PrintPdf_container .personalDetails .fname,
+.PrintPdf_container .personalDetails .lname {
+  font-size: 2rem;
+}
+.PrintPdf_container .profileDesc h3,
+.PrintPdf_container .educationInfo h3,
+.PrintPdf_container .empHistory h3,
+.PrintPdf_container .skillSet .skills_heading h3 {
+  color: #0072ff;
+  /* margin-top: 1rem; */
+}
+.PrintPdf_container .personalDetails img {
+  width: 2rem;
+  margin-right: 1rem;
+  border-radius: 20px;
+}
+
+.PrintPdf_container .educationInfo,
+.PrintPdf_container .empHistory,
+.PrintPdf_container .profileDesc {
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.PrintPdf_container .profileDesc {
+  margin-top: 2.5rem;
+}
+.PrintPdf_container .profileDesc p,
+.PrintPdf_container .educationInfo div,
+.PrintPdf_container .empHistory div {
+  margin-top: 1rem;
+}
+.PrintPdf_container .educationInfo .eduContent1,
+.PrintPdf_container .empHistory .empContent1 {
+  font-weight: bold;
+}
+
+.PrintPdf_container .personalDetails .fname {
+  color: gray;
+}
+.PrintPdf_container .flexContainer .email h4 {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.PrintPdf_container .personalDetails {
+  margin-bottom: 2rem;
+}
+.PrintPdf_container .flexContainer .email {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 0.5rem;
+  align-items: center;
+  font-size: 8px;
+  font-family: monospace;
+}
+
+.PrintPdf_container .skillSet {
+  margin-top: 4rem;
+  line-height: 1rem;
+}
+
+.PrintPdf_container .personalDetails .description {
+  color: gray;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: monospace;
+  /* font-size: 0.5rem; */
+}
+.PrintPdf_container .flexContainer .email svg {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.PrintPdf_container .flexContainer .box1 {
+  /* border-right: 1px solid white; */
+}
+.PrintPdf_container .skillSet .skillContent {
+  margin-top: 1rem;
+}
+.PrintPdf_container .skillContent p {
+  margin-bottom: 0.3rem;
+  margin-top: 0.5rem;
 }

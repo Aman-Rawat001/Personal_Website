@@ -29,7 +29,7 @@ const Navbar = () => {
               <li>Blog</li>
             </a>
             <a href="/live_tools">
-              <li>Live Tools</li>
+              <li>Make Your CV</li>
             </a>
           </ul>
         </div>

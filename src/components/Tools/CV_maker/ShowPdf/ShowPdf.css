@@ -50,7 +50,7 @@
 }
 .ShowPdf_container .flexContainer .email {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 0.5rem;
   align-items: center;
   font-size: 8px;
@@ -66,4 +66,8 @@
   color: gray;
   font-family: monospace;
   font-size: 0.5rem;
+}
+
+.flexContainer .box1 {
+  padding-right: 2rem;
 }

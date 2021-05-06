@@ -1,5 +1,5 @@
 .printPdf_container {
-  display: none;
+  /* display: none; */
   /* border: 2px solid yellow; */
 }
 
@@ -7,7 +7,7 @@
   /* border: 1px solid #282828; */
   background-color: white;
   margin-top: 2rem;
-  height: 55vh;
+  height: 65vh;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-radius: 10px;

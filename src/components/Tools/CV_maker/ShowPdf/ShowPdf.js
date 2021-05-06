@@ -2,7 +2,7 @@ import React from "react";
 import "./ShowPdf.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import img from "../../../images/croped-image.jpg";
+import cvPicture from "../../../images/cvPicture.jpg";
 
 const ShowPdf = (props) => {
   return (
@@ -17,7 +17,7 @@ const ShowPdf = (props) => {
               alignItems: "center",
             }}
           >
-            <img src={img} alt="profile" />
+            <img src={cvPicture} alt="profile" />
             <div>
               <h4 className="fname">{props.fname}</h4>
               <h4 className="lname">{props.lname}</h4>
@@ -26,7 +26,7 @@ const ShowPdf = (props) => {
           </div>
         </div>
         <div className="flexContainer">
-          <div className="Box">
+          <div className="Box box1">
             <div className="email">
               <FontAwesomeIcon icon={faEnvelope} />
               <h4 className="">{props.email}</h4>
@@ -39,23 +39,28 @@ const ShowPdf = (props) => {
               </div>
               <div className="skill1_box">
                 <p>{props.skill1}</p>
+                <progress value={props.skill1Progress} max="100" />
               </div>
               <div className="skill2_box">
                 <p>{props.skill2}</p>
+                <progress value={props.skill2Progress} max="100" />
               </div>
               <div className="skill3_box">
                 <p>{props.skill3}</p>
+                <progress value={props.skill3Progress} max="100" />
               </div>
               <div className="skill4_box">
                 <p>{props.skill4}</p>
+                <progress value={props.skill4Progress} max="100" />
               </div>
               <div className="skill5_box">
                 <p>{props.skill5}</p>
+                <progress value={props.skill5Progress} max="100" />
               </div>
             </div>
             {/* Profile description */}
           </div>
-          <div className="Box">
+          <div className="Box box2">
             <div className="profileDesc">
               <h3>Profile</h3>
               <p>{props.profileDesc}</p>
