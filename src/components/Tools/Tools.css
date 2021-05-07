@@ -1,0 +1,18 @@
+.live_tools_title {
+  /* border: 1px solid; */
+  font-family: system-ui;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #58453f;
+  background-color: #ffc107;
+  color: #58453f;
+}
+
+.tools_container {
+  padding: 1rem;
+}
+
+.tools_container .tool-1 {
+  /* border: 1px solid; */
+  margin-top: 3rem;
+}

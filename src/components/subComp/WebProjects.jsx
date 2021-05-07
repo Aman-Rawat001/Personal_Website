@@ -17,6 +17,13 @@ const WebProjects = () => {
         <ProjectBox
           hidden_link="true"
           img={img2}
+          title="Free Resume Maker"
+          quote="Design Your Thoughts"
+          link="/live_tools"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
           title="Instagram Post Creator"
           quote="That's Why Hackers Always Win"
           link="https://github.com/Aman-Rawat001/InstaPostCreator-v2.0"
