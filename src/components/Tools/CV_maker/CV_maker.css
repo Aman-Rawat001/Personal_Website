@@ -21,7 +21,7 @@
 }
 
 .info_btns button {
-  background-color: yellow;
+  background-color: #f8bc07;
   height: 2.5rem;
   width: 35vw;
   font-family: system-ui;
@@ -30,6 +30,9 @@
   border-radius: 10px;
   padding-left: 1rem;
   margin-bottom: 1rem;
+}
+.info_btns button:hover {
+  background-color: yellow;
 }
 .info_div {
   margin-top: 1rem;
@@ -44,14 +47,14 @@
 .parent_container .employHistory div,
 .parent_container .skillSet_main div,
 .parent_container .educ_info div {
-  margin-top: 0.7rem;
+  margin-top: 1rem;
 }
 .parent_container .personalInformation input,
 .parent_container .employHistory input,
 .parent_container .skillSet_main input,
 .parent_container .educ_info input {
   position: absolute;
-  right: 5rem;
+  right: 16vw;
   padding: 0.5px;
 }
 .parent_container .skillSet_main {

@@ -223,7 +223,7 @@ const CV_maker = () => {
               name="skill1"
             />
             <div>
-              <label>How much %</label>
+              <label>How much % :</label>
               <input
                 type="number"
                 value={info.skill1Progress}
@@ -242,7 +242,7 @@ const CV_maker = () => {
               name="skill2"
             />
             <div>
-              <label>How much %</label>
+              <label>How much % :</label>
               <input
                 type="number"
                 value={info.skill2Progress}
@@ -261,7 +261,7 @@ const CV_maker = () => {
               name="skill3"
             />
             <div>
-              <label>How much %</label>
+              <label>How much % :</label>
               <input
                 type="number"
                 value={info.skill3Progress}
@@ -280,7 +280,7 @@ const CV_maker = () => {
               name="skill4"
             />
             <div>
-              <label>How much %</label>
+              <label>How much % :</label>
               <input
                 type="number"
                 value={info.skill4Progress}
@@ -299,7 +299,7 @@ const CV_maker = () => {
               name="skill5"
             />
             <div>
-              <label>How much %</label>
+              <label>How much % :</label>
               <input
                 type="number"
                 value={info.skill5Progress}
