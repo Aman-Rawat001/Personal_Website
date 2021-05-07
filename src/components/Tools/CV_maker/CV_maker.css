@@ -1,5 +1,5 @@
 .printPdf_container {
-  /* display: none; */
+  display: none;
   /* border: 2px solid yellow; */
 }
 
@@ -33,4 +33,65 @@
 }
 .info_div {
   margin-top: 1rem;
+}
+
+/* styling */
+.parent_container {
+  font-family: sans-serif;
+  /* border: 1px solid rebeccapurple; */
+}
+.parent_container .personalInformation div,
+.parent_container .employHistory div,
+.parent_container .skillSet_main div,
+.parent_container .educ_info div {
+  margin-top: 0.7rem;
+}
+.parent_container .personalInformation input,
+.parent_container .employHistory input,
+.parent_container .skillSet_main input,
+.parent_container .educ_info input {
+  position: absolute;
+  right: 5rem;
+  padding: 0.5px;
+}
+.parent_container .skillSet_main {
+  margin-top: 2rem;
+}
+.parent_container .aboutYour textarea {
+  width: 73vw;
+  margin-top: 8px;
+  height: 7rem;
+}
+.parent_container .aboutYour div > p {
+  font-weight: bold;
+}
+.parent_container > h3 {
+  /* border: 1px solid; */
+  border-radius: 10px;
+  background-color: darkgrey;
+  margin-top: 2rem;
+  padding: 0.4rem;
+}
+.stepsForCV {
+  padding-left: 1rem;
+  background: linear-gradient(to right, #f3f3f3, #ffd451);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+}
+.stepsForCV > h2 {
+  font-family: system-ui;
+  font-size: 1.2rem;
+  letter-spacing: 0.3px;
+  line-height: 21pt;
+  color: #ff5722;
+}
+.stepsForCV p {
+  margin-top: 0.7rem;
+  line-height: 20pt;
+  font-family: system-ui;
+}
+.stepsForCV p span {
+  font-weight: bold;
+  color: darkslategray;
 }

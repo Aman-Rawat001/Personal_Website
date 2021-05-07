@@ -1,12 +1,12 @@
-.PrintPdf_container {
+/* .PrintPdf_container {
   padding-left: 2rem;
   padding-right: 2rem;
-  /* font-size: 0.6rem; */
+
   font-family: system-ui;
 }
 .PrintPdf_container .flexContainer {
   display: flex;
-  /* border: 1px solid; */
+  
 }
 .PrintPdf_container .personalDetails .fname,
 .PrintPdf_container .personalDetails .lname {
@@ -17,7 +17,7 @@
 .PrintPdf_container .empHistory h3,
 .PrintPdf_container .skillSet .skills_heading h3 {
   color: #0072ff;
-  /* margin-top: 1rem; */
+ 
 }
 .PrintPdf_container .personalDetails img {
   width: 2rem;
@@ -28,7 +28,7 @@
 .PrintPdf_container .educationInfo,
 .PrintPdf_container .empHistory,
 .PrintPdf_container .profileDesc {
-  /* margin-top: 1rem; */
+  
   margin-bottom: 1rem;
   text-align: left;
 }
@@ -57,7 +57,7 @@
 }
 .PrintPdf_container .flexContainer .email {
   display: flex;
-  /* justify-content: center; */
+  
   margin-top: 0.5rem;
   align-items: center;
   font-size: 8px;
@@ -74,14 +74,14 @@
   font-size: 1rem;
   margin-top: 1rem;
   font-family: monospace;
-  /* font-size: 0.5rem; */
+
 }
 .PrintPdf_container .flexContainer .email svg {
   font-size: 1rem;
   margin-right: 0.5rem;
 }
 .PrintPdf_container .flexContainer .box1 {
-  /* border-right: 1px solid white; */
+  
 }
 .PrintPdf_container .skillSet .skillContent {
   margin-top: 1rem;
@@ -89,4 +89,4 @@
 .PrintPdf_container .skillContent p {
   margin-bottom: 0.3rem;
   margin-top: 0.5rem;
-}
+} */
