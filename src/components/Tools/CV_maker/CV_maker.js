@@ -211,10 +211,9 @@ const CV_maker = () => {
           </div>
         </div>
         {/* SkillSet Information */}
+        <h3 style={{ textAlign: "center" }}>Top 5 Skills</h3>
         <div className="skillSet_main info_div">
-          <div>
-            <h4>Top 5 Skills</h4>
-          </div>
+          <div></div>
           <div>
             <label>Skill-1 :</label>
             <input
