@@ -62,7 +62,7 @@ const CV_maker = () => {
     });
     // save name of the person in firebase.
     e.preventDefault();
-    db.collection("downloadCV_contact").add({
+    db.collection("downloadCV_contacts").add({
       name: info.fname + info.lname,
       email: info.email,
       designation: info.desig,
