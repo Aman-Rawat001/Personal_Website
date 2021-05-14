@@ -17,7 +17,14 @@ const WebProjects = () => {
         <ProjectBox
           hidden_link="true"
           img={img2}
-          title="Free Resume Maker"
+          title="Image Finder (Live)"
+          quote="Design Your Thoughts"
+          link="/image_finder"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
+          title="Free Resume Maker (Live)"
           quote="Design Your Thoughts"
           link="/live_tools"
         />
