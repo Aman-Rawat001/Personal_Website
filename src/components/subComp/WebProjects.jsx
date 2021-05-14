@@ -24,6 +24,13 @@ const WebProjects = () => {
         <ProjectBox
           hidden_link="true"
           img={img2}
+          title="Android Chat Application"
+          quote="Chat without security issues"
+          link="https://github.com/Aman-Rawat001/react-native-chat-application"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
           title="Instagram Post Creator"
           quote="That's Why Hackers Always Win"
           link="https://github.com/Aman-Rawat001/InstaPostCreator-v2.0"
