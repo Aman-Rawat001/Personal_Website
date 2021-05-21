@@ -155,7 +155,23 @@ const About = () => {
               Show More...
             </a>
           </div>
+          {/* other skills */}
+          <div
+            className="otherSkills_container"
+            style={{ textAlign: "center" }}
+          >
+            <h3 className="otherSkillsH3">Interests</h3>
+            <div className="otherSkills">
+              <p className="bulletTags">Wesbite_SEO</p>
+              <p className="bulletTags">Blog_SEO</p>
+              <p className="bulletTags">DIY_Drone</p>
+              <p className="bulletTags">Arduino</p>
+              <p className="bulletTags">Trading</p>
+              <p className="bulletTags">Respberri_Pi</p>
+            </div>
+          </div>
 
+          {/* socail mdeia links */}
           <div className="social">
             <h3>Social Media Handles</h3>
             <div className="socialMedia">

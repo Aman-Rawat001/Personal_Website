@@ -24,6 +24,13 @@ const MLprojects = () => {
         <ProjectBox
           hidden_link="true"
           img={img3}
+          title="Hand Gesture Recognition"
+          quote="With OpenCV & Mediapipe"
+          link="https://github.com/Aman-Rawat001/Hand_Gesture-Recognization"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img3}
           title="Object Detection Using Color"
           quote="Design Your Own World"
           link="https://github.com/Aman-Rawat001/Object-detection-using-color-control"
