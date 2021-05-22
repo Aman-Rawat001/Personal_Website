@@ -31,6 +31,13 @@ const WebProjects = () => {
         <ProjectBox
           hidden_link="true"
           img={img2}
+          title="Responsive Bootstrap Wesbite"
+          quote="Design Your Thoughts"
+          link="https://github.com/Aman-Rawat001/Fully-Responsive-Bootstrap-Wesbite-"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
           title="Android Chat Application"
           quote="Chat without security issues"
           link="https://github.com/Aman-Rawat001/react-native-chat-application"
