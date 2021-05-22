@@ -6,9 +6,10 @@ import cv_pdf from "../images/Aman_resume.jpg";
 
 const My_cv = () => {
   const pdfGenerate = () => {
-    var doc = new jsPDF("landscape", "px", "a4", "false");
-    doc.addImage(cv_pdf, "PNG", 65, 20, 500, 400);
-    // doc.addPage(cv_pdf, "PDF", 65, 20, 500, 400);
+    var doc = new jsPDF("p", "mm", "a4");
+    var width = doc.internal.pageSize.getWidth();
+    var height = doc.internal.pageSize.getHeight();
+    doc.addImage(cv_pdf, "PNG", 0, 0, width, height);
     doc.save("Aman_Rawat CV.pdf");
   };
   return (
