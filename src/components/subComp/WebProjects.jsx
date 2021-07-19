@@ -18,8 +18,15 @@ const WebProjects = () => {
           hidden_link="true"
           img={img2}
           title="Image Finder (Live)"
-          quote="Design Your Thoughts"
+          quote="Find your thoughts"
           link="/image_finder"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
+          title="Notes_Universe"
+          quote="Share & Learn"
+          link="https://notes-universe.web.app"
         />
         <ProjectBox
           hidden_link="true"

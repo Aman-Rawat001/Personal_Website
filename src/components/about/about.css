@@ -13,7 +13,7 @@
 }
 .about_content1,
 .about_content2 {
-  text-align: left;
+  text-align: center;
   font-family: system-ui;
   font-size: 1rem;
 }
@@ -90,8 +90,7 @@
   font-family: system-ui;
   left: 1.5rem;
 }
-.skills_progressBar progress {
-}
+
 .socialMedia {
   display: flex;
   flex-direction: row;

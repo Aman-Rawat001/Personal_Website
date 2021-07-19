@@ -1,23 +1,15 @@
 import React from "react";
 import "./My_cv.css";
-import jsPDF from "jspdf";
-import cv_pdf from "../images/Aman_resume.jpg";
-// import Navbar from "../navbar/Navbar";
+
 
 const My_cv = () => {
-  const pdfGenerate = () => {
-    var doc = new jsPDF("p", "mm", "a4");
-    var width = doc.internal.pageSize.getWidth();
-    var height = doc.internal.pageSize.getHeight();
-    doc.addImage(cv_pdf, "PNG", 0, 0, width, height);
-    doc.save("Aman_Rawat CV.pdf");
-  };
+ 
   return (
     <>
       {/* <Navbar /> */}
       <div className="downloadCV_container">
         <br />
-        <button onClick={pdfGenerate}>Download CV</button>
+        <button><a href="https://firebasestorage.googleapis.com/v0/b/profile-website-3cadb.appspot.com/o/Aman's%20Resume.pdf?alt=media&token=60c59bae-c4e2-4709-b68a-a7f9b3403815">Download CV</a></button>
       </div>
     </>
   );

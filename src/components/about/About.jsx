@@ -34,16 +34,16 @@ const About = () => {
       <Navbar />
 
       <div className="about_container">
-        <img className="profileImg" src={profileImg} alt="profile image" />
+        <img  className="profileImg" src={profileImg} alt="profile image" />
         <div className="about_content_div">
-          <p className="about_content1">Hey</p>
+          {/* <p className="about_content1">Hey</p> */}
           <p className="about_content2">
             This is <span id="name">Aman Rawat</span> from Dehradun Uttarakhand.
             Currently pursuing B.tech C.S.E from Graphic Era Hill
             University(GEHU).
           </p>
           <div className="experience">
-            <h3>Working Experience In Companies</h3>
+            <h3>Working Experience With Companies</h3>
             <h5>
               @Sunfox Pvt Ltd:{" "}
               <span>
@@ -61,7 +61,7 @@ const About = () => {
             <h5>
               @GurujiFinder.com:{" "}
               <span>
-                It is basically an startUp which is founded in 2018 and i was
+                It was basically early age startUp which was founded in 2018 and i was
                 working with them as a website ranker(SEO).
               </span>
             </h5>
@@ -128,6 +128,20 @@ const About = () => {
               </progress>
             </div>
             <div className="skills_progressBar">
+              <label for="file">Firebase</label>
+              <progress id="file" value="70" max="100">
+                {" "}
+                32%{" "}
+              </progress>
+            </div>
+            <div className="skills_progressBar">
+              <label for="file">MongoDB</label>
+              <progress id="file" value="50" max="100">
+                {" "}
+                32%{" "}
+              </progress>
+            </div>
+            <div className="skills_progressBar">
               <label for="file">Other:</label>
               <progress id="file" value="45" max="100">
                 {" "}
@@ -142,10 +156,11 @@ const About = () => {
             <p>TailwindCss</p>
             <p>CircleCI</p>
             <p>Jira</p>
-            <div id="showMore" style={{ display: "none" }}>
               <p>Bootstrap</p>
+            <div id="showMore" style={{ display: "none" }}>
               <p>Git</p>
               <p>Firebase</p>
+              <p>Docker</p>
               <p>Canvas</p>
               <p>Wordpress</p>
               <p>GitHub</p>

@@ -8,7 +8,6 @@ import WebProjects from "./components/subComp/WebProjects";
 import Contact from "./components/contact/Contact";
 import Live_tools from "./components/Tools/Tools";
 import ImageFinder from "./components/Tools/ImageFinder/ImageFinder";
-
 import "./styles.css";
 
 import HomePage from "./components/Home/HomePage";
@@ -18,6 +17,11 @@ const App = () => {
   return (
     <>
       {/* <Navbar /> */}
+      <div>
+        <div className="showOnLargeScreen">
+          <h3>Site id not build for large screens. Open in mobile tab.</h3>
+        </div>
+        <div className="showOnSmallScreen">
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/projects" component={Projects} />
@@ -29,6 +33,8 @@ const App = () => {
         <Route exact path="/live_tools" component={Live_tools} />
         <Route exact path="/image_finder" component={ImageFinder} />
       </Switch>
+      </div>
+      </div>
     </>
   );
 };
