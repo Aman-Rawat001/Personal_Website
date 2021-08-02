@@ -101,7 +101,14 @@ const About = () => {
             </div>
             <div className="skills_progressBar">
               <label for="file">ReactJs:</label>
-              <progress id="file" value="65" max="100">
+              <progress id="file" value="85" max="100">
+                {" "}
+                32%{" "}
+              </progress>
+            </div>
+            <div className="skills_progressBar">
+              <label for="file">React Native:</label>
+              <progress id="file" value="40" max="100">
                 {" "}
                 32%{" "}
               </progress>
@@ -143,7 +150,7 @@ const About = () => {
             </div>
             <div className="skills_progressBar">
               <label for="file">Other:</label>
-              <progress id="file" value="45" max="100">
+              <progress id="file" value="55" max="100">
                 {" "}
                 32%{" "}
               </progress>
@@ -156,8 +163,9 @@ const About = () => {
             <p>TailwindCss</p>
             <p>CircleCI</p>
             <p>Jira</p>
-            <p>Bootstrap</p>
+            <p>OpenCV</p>
             <div id="showMore" style={{ display: "none" }}>
+              <p>Bootstrap</p>
               <p>Git</p>
               <p>Firebase</p>
               <p>Docker</p>
@@ -183,6 +191,7 @@ const About = () => {
               <p className="bulletTags">Arduino</p>
               <p className="bulletTags">Trading</p>
               <p className="bulletTags">Respberri_Pi</p>
+              <p className="bulletTags">Machine Learning</p>
             </div>
           </div>
 
