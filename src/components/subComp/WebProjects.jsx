@@ -38,6 +38,13 @@ const WebProjects = () => {
         <ProjectBox
           hidden_link="true"
           img={img2}
+          title="TikTacToe Browser Game"
+          quote="Learn & Play"
+          link="https://github.com/Aman-Rawat001/TicTacToe-Browser-Game"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
           title="Responsive Bootstrap Wesbite"
           quote="Design Your Thoughts"
           link="https://github.com/Aman-Rawat001/Fully-Responsive-Bootstrap-Wesbite-"

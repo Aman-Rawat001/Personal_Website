@@ -34,7 +34,7 @@ const About = () => {
       <Navbar />
 
       <div className="about_container">
-        <img  className="profileImg" src={profileImg} alt="profile image" />
+        <img className="profileImg" src={profileImg} alt="profile image" />
         <div className="about_content_div">
           {/* <p className="about_content1">Hey</p> */}
           <p className="about_content2">
@@ -45,10 +45,10 @@ const About = () => {
           <div className="experience">
             <h3>Working Experience With Companies</h3>
             <h5>
-              @Sunfox Pvt Ltd:{" "}
+              @Sunfox Technologies:{" "}
               <span>
-                Currently i am working with Sunfox pvt-Ltd as a Full Stack
-                Developer.{" "}
+                I have done 6 month internship from (2/2021 to 7/2021) with
+                sunfox technologies.
               </span>
             </h5>
             <h5>
@@ -61,8 +61,8 @@ const About = () => {
             <h5>
               @GurujiFinder.com:{" "}
               <span>
-                It was basically early age startUp which was founded in 2018 and i was
-                working with them as a website ranker(SEO).
+                It was basically early age startUp which was founded in 2018 and
+                i was working with them as a website ranker(SEO).
               </span>
             </h5>
           </div>
@@ -101,7 +101,14 @@ const About = () => {
             </div>
             <div className="skills_progressBar">
               <label for="file">ReactJs:</label>
-              <progress id="file" value="65" max="100">
+              <progress id="file" value="85" max="100">
+                {" "}
+                32%{" "}
+              </progress>
+            </div>
+            <div className="skills_progressBar">
+              <label for="file">React Native:</label>
+              <progress id="file" value="40" max="100">
                 {" "}
                 32%{" "}
               </progress>
@@ -143,7 +150,7 @@ const About = () => {
             </div>
             <div className="skills_progressBar">
               <label for="file">Other:</label>
-              <progress id="file" value="45" max="100">
+              <progress id="file" value="55" max="100">
                 {" "}
                 32%{" "}
               </progress>
@@ -156,8 +163,9 @@ const About = () => {
             <p>TailwindCss</p>
             <p>CircleCI</p>
             <p>Jira</p>
-              <p>Bootstrap</p>
+            <p>OpenCV</p>
             <div id="showMore" style={{ display: "none" }}>
+              <p>Bootstrap</p>
               <p>Git</p>
               <p>Firebase</p>
               <p>Docker</p>
@@ -183,6 +191,7 @@ const About = () => {
               <p className="bulletTags">Arduino</p>
               <p className="bulletTags">Trading</p>
               <p className="bulletTags">Respberri_Pi</p>
+              <p className="bulletTags">Machine Learning</p>
             </div>
           </div>
 
