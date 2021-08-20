@@ -24,9 +24,16 @@ const WebProjects = () => {
         <ProjectBox
           hidden_link="true"
           img={img2}
-          title="Notes_Universe"
+          title="Notes_Universe (Live)"
           quote="Share & Learn"
           link="https://notes-universe.web.app"
+        />
+        <ProjectBox
+          hidden_link="true"
+          img={img2}
+          title="Dairy_Listing_Web with PWA (Live)"
+          quote="Purity Is King"
+          link="https://dairy-need.web.app/"
         />
         <ProjectBox
           hidden_link="true"
