@@ -19,9 +19,6 @@ const App = () => {
     <>
       {/* <Navbar /> */}
       <div>
-        <div className="showOnLargeScreen">
-          <h3>This Site is not build for large screens. Open in mobile tab.</h3>
-        </div>
         <div className="showOnSmallScreen">
           <Switch>
             <Route exact path="/" component={NewHomePage} />

@@ -1,27 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* border: 1px solid black; */
-  background-color: white;
-}
-
-.showOnLargeScreen {
-  display: none;
-}
-
-@media screen and (min-width: 575px) {
-  .showOnLargeScreen {
-    /* display: block; */
-  }
-  .showOnSmallScreen {
-    /* display: none; */
-  }
-  .showOnLargeScreen {
-    margin-top: 3rem;
-    text-align: center;
-  }
-  .showOnLargeScreen h3 {
-    background-color: yellow;
-  }
+body {
+  background-color: white !important;
 }

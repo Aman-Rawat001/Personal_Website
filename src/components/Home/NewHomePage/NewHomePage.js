@@ -1,11 +1,14 @@
 import React from "react";
-import Header from "./Header/Header";
+import "./NewHomePage.css";
+import Navbar from "./navbarNew/Navbar";
 
 const NewHomePage = () => {
   return (
-    <>
-      <Header />
-    </>
+    <div>
+      <div className="newNavbar">
+        <Navbar />
+      </div>
+    </div>
   );
 };
 
