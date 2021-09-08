@@ -1,0 +1,13 @@
+.HeaderTop {
+  background-image: url("../../../images/bg-hero.svg");
+  height: 43rem;
+  /* position: absolute; */
+  background-position: 70rem -1rem;
+  background-repeat: no-repeat;
+}
+.HeaderTop .navbar {
+  position: absolute;
+  width: 70%;
+}
+.HeaderTop .navbar .row div {
+}
