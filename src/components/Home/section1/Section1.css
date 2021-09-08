@@ -1,0 +1,28 @@
+.section1 .section1img {
+  width: 100%;
+}
+.section1 .imageBox {
+  padding-left: 7rem;
+  padding-bottom: 7rem;
+  padding-right: 7rem;
+}
+.section1 .contentName {
+  color: #ff9800;
+  font-family: "montserrat";
+  font-weight: 600;
+}
+.section1 button {
+  margin-top: 1rem;
+  border-radius: 0;
+  background-color: #ff9800;
+  border: 2px solid #ff9800;
+  width: 9rem;
+  height: 3.2rem;
+  font-family: "Mulish";
+  transition: background-color 200ms linear;
+  color: white;
+}
+.section1 button:hover {
+  background-color: white;
+  color: black;
+}

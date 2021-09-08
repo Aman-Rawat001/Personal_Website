@@ -1,3 +1,15 @@
 body {
   background-color: white !important;
 }
+.montserrat600 {
+  font-family: "montserrat";
+  font-style: italic;
+  font-weight: 600;
+  color: #767676;
+}
+.mulish400 {
+  font-family: mulish;
+  font-style: italic;
+  color: #767676;
+  line-height: 24pt;
+}
