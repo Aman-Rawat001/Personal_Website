@@ -1,6 +1,12 @@
 .navbar .navbar-brand img {
   width: 4.5rem;
 }
+.newNavbar {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+}
 .activeHome {
   border-bottom: 5px solid #ff9800 !important;
   color: #ff9800 !important;

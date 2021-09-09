@@ -12,16 +12,37 @@ import logoImg from "../../images/logo.png";
 import "./navbarNew/Navbar.css";
 
 const NewHomePage = () => {
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
+    ) {
+      document.getElementById("navbar").style.boxShadow =
+        "#cbcbcb -1px -2px 5px 5px";
+      document.getElementById("navbar").style.backgroundColor = "white";
+    } else {
+      document.getElementById("navbar").style.boxShadow = "none";
+      document.getElementById("navbar").style.backgroundColor =
+        "rgb(235, 235, 235)";
+    }
+  }
+
   return (
     <div>
-      <div className="newNavbar">
+      <div className="newNavbar" id="navbar">
         {/* <Navbar /> */}
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
-              <a className="navbar-brand" href="/">
-                <img src={logoImg} alt="logo" />
-              </a>
+              <div>
+                <a className="navbar-brand" href="/">
+                  <img src={logoImg} alt="logo" />
+                </a>
+              </div>
               <button
                 className="navbar-toggler"
                 type="button"

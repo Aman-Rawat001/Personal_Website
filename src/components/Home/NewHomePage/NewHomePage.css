@@ -1,3 +1,4 @@
 .newNavbar {
   background-color: rgb(235, 235, 235);
+  transition: all 150ms;
 }
