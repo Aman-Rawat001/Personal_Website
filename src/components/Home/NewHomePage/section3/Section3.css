@@ -23,3 +23,10 @@
   transform: scale(1.05);
   filter: brightness(1);
 }
+
+@media screen and (max-width: 575px) {
+  .section3 .featuredBox .imageBox {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+}

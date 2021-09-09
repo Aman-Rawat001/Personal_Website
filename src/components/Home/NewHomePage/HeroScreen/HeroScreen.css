@@ -51,5 +51,6 @@
   }
   .heroScreen .rightContent {
     height: 99vh;
+    margin-top: 0;
   }
 }

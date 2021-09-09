@@ -14,21 +14,21 @@ const Footer = () => {
     <div className="container-fluid py-5 footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-3 footerPairs">
             <p className="montserrat600 textFooter">AMAN RAWAT</p>
             <p className="montserrat600 textFooter">
               © All Right Reserved 2021
             </p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 footerPairs">
             <p className="montserrat600 textFooter">Balawala, Dehradun</p>
             <p className="montserrat600 textFooter">Uttrakhand, 248001</p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 footerPairs">
             <p className="montserrat600 textFooter">amanrawa2@gmail.com</p>
             <p className="montserrat600 textFooter">+91 9058153667</p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 footerPairs">
             <div className="textFooter footerIcons">
               <FontAwesomeIcon icon={faFacebook} />
               <FontAwesomeIcon icon={faLinkedin} />

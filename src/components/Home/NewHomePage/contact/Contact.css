@@ -13,3 +13,8 @@
   background-color: white;
   color: black;
 }
+.submitBtn:focus {
+  border: none;
+  background-position: none;
+  box-shadow: none;
+}

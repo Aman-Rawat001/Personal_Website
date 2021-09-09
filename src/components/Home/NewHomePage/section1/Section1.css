@@ -30,3 +30,8 @@
   background-color: white;
   color: black;
 }
+@media (max-width: 575px) {
+  .section1 .imageBox {
+    display: none;
+  }
+}

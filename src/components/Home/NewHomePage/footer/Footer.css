@@ -15,3 +15,8 @@
 .footer .footerIcons svg:hover {
   color: #ff9800;
 }
+@media screen and (max-width: 575px) {
+  .footer .footerPairs {
+    margin-bottom: 2rem;
+  }
+}

@@ -34,3 +34,15 @@
 .section2 .gotoBox:hover {
   color: #ff9800;
 }
+@media (max-width: 575px) {
+  .section2 {
+    margin-top: 7rem;
+    /* margin-bottom: 2rem; */
+  }
+  .section2 .contentBox {
+    margin-bottom: 2rem;
+  }
+  .section2 .gotoBox {
+    bottom: 7%;
+  }
+}
