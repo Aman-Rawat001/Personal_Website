@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import section1Img from "../../../images/about_section_profile.jpg";
 import "./Section1.css";
 
@@ -13,7 +14,7 @@ const Section1 = () => {
             </div>
             <div className="col-lg-6">
               <div>
-                <h1 className="contentName">AMAN RAWAT</h1>
+                <h1 className="contentName montserrat600 ">AMAN RAWAT</h1>
                 <p className="montserrat600">Creative Web & App Developer</p>
               </div>
               <hr className="my-5" />
@@ -27,7 +28,9 @@ const Section1 = () => {
                 a success. I enjoy every step of the design process, from
                 discussion and collaboration.
               </p>
-              <button>Learn More</button>
+              <NavLink to="/about">
+                <button>Learn More</button>
+              </NavLink>
             </div>
           </div>
         </div>
