@@ -5,6 +5,7 @@ import HeroScreen from "./HeroScreen/HeroScreen";
 import Section1 from "./section1/Section1";
 import Section2 from "./section2/Section2";
 import Section3 from "./section3/Section3";
+import Contact from "./contact/Contact";
 
 import logoImg from "../../images/logo.png";
 import "./navbarNew/Navbar.css";
@@ -55,7 +56,7 @@ const NewHomePage = () => {
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link" exact href="#blog">
+                    <a className="nav-link" exact href="#contact">
                       Contact
                     </a>
                   </li>
@@ -74,6 +75,9 @@ const NewHomePage = () => {
       </div>
       <div id="portfolio">
         <Section3 />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
     </div>
   );

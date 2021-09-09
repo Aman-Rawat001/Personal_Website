@@ -1,0 +1,15 @@
+.submitBtn {
+  margin-top: 1rem;
+  border-radius: 0;
+  background-color: #ff9800;
+  border: 2px solid #ff9800 !important;
+  width: 9rem;
+  height: 3.2rem;
+  font-family: "Mulish";
+  transition: background-color 200ms linear;
+  color: white;
+}
+.submitBtn:hover {
+  background-color: white;
+  color: black;
+}
