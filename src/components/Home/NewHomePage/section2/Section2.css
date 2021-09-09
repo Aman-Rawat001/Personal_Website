@@ -1,0 +1,36 @@
+.section2 .contentBox {
+  background-color: #eeeeee;
+  border-radius: 8px;
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+  cursor: pointer;
+}
+.section2 .contentBox:hover {
+  transform: scale(1.08);
+}
+.section2 .contentBox h5 {
+  color: #3d3d3d;
+}
+.section2 .box1 {
+  border-left: 6px solid #2372bc;
+}
+.section2 .box2 {
+  border-left: 6px solid #23bc56;
+}
+.section2 .box3 {
+  border-left: 6px solid #e84c57;
+}
+.section2 .box4 {
+  border-left: 6px solid #bc6723;
+}
+.section2 .gotoBox {
+  position: absolute;
+  left: 81%;
+  bottom: 15%;
+}
+.section2 .gotoBox svg {
+  font-size: 1.4rem;
+}
+.section2 .gotoBox:hover {
+  color: #ff9800;
+}

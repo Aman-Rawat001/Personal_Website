@@ -1,10 +1,14 @@
+.section1 {
+}
 .section1 .section1img {
   width: 100%;
 }
+.section1 .section1Box {
+  align-items: center;
+}
 .section1 .imageBox {
-  padding-left: 7rem;
-  padding-bottom: 7rem;
-  padding-right: 7rem;
+  padding: 6rem;
+  border-left: 1px solid lightgray;
 }
 .section1 .contentName {
   color: #ff9800;

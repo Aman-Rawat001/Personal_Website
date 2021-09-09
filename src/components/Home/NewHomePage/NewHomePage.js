@@ -2,7 +2,8 @@ import React from "react";
 import "./NewHomePage.css";
 // import Navbar from "./navbarNew/Navbar";
 import HeroScreen from "./HeroScreen/HeroScreen";
-import Section1 from "../section1/Section1";
+import Section1 from "./section1/Section1";
+import Section2 from "./section2/Section2";
 
 import logoImg from "../../images/logo.png";
 import "./navbarNew/Navbar.css";
@@ -66,6 +67,9 @@ const NewHomePage = () => {
       <HeroScreen />
       <div id="about">
         <Section1 />
+      </div>
+      <div id="projects">
+        <Section2 />
       </div>
     </div>
   );

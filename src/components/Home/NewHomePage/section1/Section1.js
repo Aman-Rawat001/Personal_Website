@@ -1,13 +1,13 @@
 import React from "react";
-import section1Img from "../../images/about_section_profile.jpg";
+import section1Img from "../../../images/about_section_profile.jpg";
 import "./Section1.css";
 
 const Section1 = () => {
   return (
     <div>
-      <div className="section1 mt-5" id="section1">
+      <div className="section1 m-5" id="section1">
         <div className="container">
-          <div className="row">
+          <div className="row section1Box">
             <div className="col-lg-6 imageBox">
               <img className="section1img" src={section1Img} alt="image" />
             </div>
