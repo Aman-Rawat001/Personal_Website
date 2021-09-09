@@ -6,6 +6,17 @@ import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 const Section2 = () => {
   return (
     <div className="container section2 mb-5">
+      <div className="my-5">
+        <h3
+          className="montserrat600 mt-5"
+          style={{ color: "#3d3d3d", marginBottom: "0" }}
+        >
+          PROJECTS
+        </h3>
+        <small className="mulish400">
+          (Tap the box to access the projects)
+        </small>
+      </div>
       <div className="row">
         <div className="col-lg-3">
           <div className="contentBox box1 p-3">

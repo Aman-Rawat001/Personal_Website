@@ -7,6 +7,11 @@ body {
   font-weight: 600;
   color: #767676;
 }
+.montserratNormal {
+  font-family: "montserrat";
+  font-weight: 600;
+  color: #414141;
+}
 .mulish400 {
   font-family: mulish;
   font-style: italic;

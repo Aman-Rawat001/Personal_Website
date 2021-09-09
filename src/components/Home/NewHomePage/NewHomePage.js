@@ -4,6 +4,7 @@ import "./NewHomePage.css";
 import HeroScreen from "./HeroScreen/HeroScreen";
 import Section1 from "./section1/Section1";
 import Section2 from "./section2/Section2";
+import Section3 from "./section3/Section3";
 
 import logoImg from "../../images/logo.png";
 import "./navbarNew/Navbar.css";
@@ -55,7 +56,7 @@ const NewHomePage = () => {
 
                   <li className="nav-item">
                     <a className="nav-link" exact href="#blog">
-                      Blog
+                      Contact
                     </a>
                   </li>
                 </ul>
@@ -70,6 +71,9 @@ const NewHomePage = () => {
       </div>
       <div id="projects">
         <Section2 />
+      </div>
+      <div id="portfolio">
+        <Section3 />
       </div>
     </div>
   );
