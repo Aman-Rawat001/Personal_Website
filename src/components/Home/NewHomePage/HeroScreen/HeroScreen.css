@@ -3,7 +3,15 @@
 .heroScreen .rightContent {
   background-color: rgb(235, 235, 235);
   height: 90vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-image: url("./heroImg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
+
 .heroScreen .absoluteContent {
   position: absolute;
   top: 25%;
@@ -21,9 +29,26 @@
   font-size: 9rem;
   font-weight: 800;
 }
+.heroScreen .absoluteContent .text {
+  color: #ff9100;
+}
 .heroScreen .absoluteContent > p {
   font-family: "Montserrat";
   font-weight: 600;
   color: #767676;
   font-style: italic;
+}
+@media screen and (max-width: 575px) {
+  .heroScreen .absoluteContent .name h1 {
+    font-size: 5rem;
+  }
+  .heroScreen .absoluteContent {
+    text-align: center;
+    padding-left: 1rem;
+    text-align: center;
+    top: 48%;
+  }
+  .heroScreen .rightContent {
+    height: 99vh;
+  }
 }

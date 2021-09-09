@@ -80,7 +80,9 @@ const HeroScreen = () => {
           </p>
         </div>
         <div className="col-lg-4 leftContent"></div>
-        <div className="col-lg-8 rightContent"></div>
+        <div className="col-lg-8 rightContent">
+          {/* <img src={heroImg} alt="Image" /> */}
+        </div>
       </div>
     </div>
   );
