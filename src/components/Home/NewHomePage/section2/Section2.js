@@ -26,7 +26,8 @@ const Section2 = () => {
             <div className="contentBox box1 p-3">
               <h5 className="montserrat600">Web Development</h5>
               <p className="mulish400">
-                I enjoy every step of the design process.
+                Let us take you into a deeper experience, make a moment a
+                lasting conveyable memory.
               </p>
               <div className="gotoBox">
                 <FontAwesomeIcon icon={faArrowCircleRight} />
@@ -42,7 +43,8 @@ const Section2 = () => {
             <div className="contentBox box2 p-3">
               <h5 className="montserrat600">Machine Learning</h5>
               <p className="mulish400">
-                I enjoy every step of the design process.
+                Predictions have an expiry date. Action is needed before
+                predictions expire.
               </p>
               <div className="gotoBox">
                 <FontAwesomeIcon icon={faArrowCircleRight} />
@@ -55,7 +57,8 @@ const Section2 = () => {
             <div className="contentBox box3 p-3">
               <h5 className="montserrat600">Cyber Security</h5>
               <p className="mulish400">
-                I enjoy every step of the design process.
+                If you think you know-it-all about cybersecurity, this
+                discipline was probably ill-explained to you.
               </p>
               <div className="gotoBox">
                 <FontAwesomeIcon icon={faArrowCircleRight} />
@@ -72,7 +75,8 @@ const Section2 = () => {
             <div className="contentBox box4 p-3">
               <h5 className="montserrat600">Blogging</h5>
               <p className="mulish400">
-                I enjoy every step of the design process.
+                As a blogger, everything you do flows from understanding your
+                audience and seeking to help them.
               </p>
               <div className="gotoBox">
                 <FontAwesomeIcon icon={faArrowCircleRight} />
