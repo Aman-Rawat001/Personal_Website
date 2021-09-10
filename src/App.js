@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import About from "./components/about/About";
 // import Hprojects from "./components/subComp/HProjects";
 import MLprojects from "./components/subComp/MLprojects";
-// import WebProjects from "./components/subComp/WebProjects";
+import WebProjects from "./components/subComp/WebProjects";
 // import Contact from "./components/contact/Contact";
 // import Live_tools from "./components/Tools/Tools";
 // import ImageFinder from "./components/Tools/ImageFinder/ImageFinder";
@@ -28,13 +28,13 @@ const App = () => {
               path="/machine-learning-projects"
               component={MLprojects}
             />
-            {/* <Route exact path="/projects" component={Projects} />
-            <Route exact path="/hacking-projects" component={Hprojects} />
             <Route
               exact
               path="/web-development-projects"
               component={WebProjects}
             />
+            {/* <Route exact path="/projects" component={Projects} />
+            <Route exact path="/hacking-projects" component={Hprojects} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/live_tools" component={Live_tools} />
             <Route exact path="/image_finder" component={ImageFinder} /> */}
