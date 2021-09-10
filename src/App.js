@@ -2,12 +2,12 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 // import Projects from "./components/projects/projects";
 import About from "./components/about/About";
-// import Hprojects from "./components/subComp/HProjects";
+import Hprojects from "./components/subComp/HProjects";
 import MLprojects from "./components/subComp/MLprojects";
 import WebProjects from "./components/subComp/WebProjects";
 // import Contact from "./components/contact/Contact";
 // import Live_tools from "./components/Tools/Tools";
-// import ImageFinder from "./components/Tools/ImageFinder/ImageFinder";
+import ImageFinder from "./components/Tools/ImageFinder/ImageFinder";
 import NewHomePage from "./components/Home/NewHomePage/NewHomePage";
 import "./styles.css";
 
@@ -33,11 +33,11 @@ const App = () => {
               path="/web-development-projects"
               component={WebProjects}
             />
-            {/* <Route exact path="/projects" component={Projects} />
             <Route exact path="/hacking-projects" component={Hprojects} />
+            <Route exact path="/image_finder" component={ImageFinder} />
+            {/* <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/live_tools" component={Live_tools} />
-            <Route exact path="/image_finder" component={ImageFinder} /> */}
+  <Route exact path="/live_tools" component={Live_tools} />*/}
           </Switch>
         </div>
       </div>

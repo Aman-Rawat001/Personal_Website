@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./about.css";
 import profileImg from "../images/about_section_profile.jpg";
-import My_cv from "../My_cv/My_cv";
+// import My_cv from "../My_cv/My_cv";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,

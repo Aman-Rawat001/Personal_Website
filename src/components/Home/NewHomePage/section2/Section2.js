@@ -19,7 +19,10 @@ const Section2 = () => {
       </div>
       <div className="row">
         <div className="col-lg-3">
-          <a href="/web-development-projects">
+          <a
+            style={{ textDecoration: "none" }}
+            href="/web-development-projects"
+          >
             <div className="contentBox box1 p-3">
               <h5 className="montserrat600">Web Development</h5>
               <p className="mulish400">
@@ -32,7 +35,10 @@ const Section2 = () => {
           </a>
         </div>
         <div className="col-lg-3">
-          <a href="/machine-learning-projects">
+          <a
+            style={{ textDecoration: "none" }}
+            href="/machine-learning-projects"
+          >
             <div className="contentBox box2 p-3">
               <h5 className="montserrat600">Machine Learning</h5>
               <p className="mulish400">
@@ -45,26 +51,34 @@ const Section2 = () => {
           </a>
         </div>
         <div className="col-lg-3">
-          <div className="contentBox box3 p-3">
-            <h5 className="montserrat600">Cyber Security</h5>
-            <p className="mulish400">
-              I enjoy every step of the design process.
-            </p>
-            <div className="gotoBox">
-              <FontAwesomeIcon icon={faArrowCircleRight} />
+          <a style={{ textDecoration: "none" }} href="hacking-projects">
+            <div className="contentBox box3 p-3">
+              <h5 className="montserrat600">Cyber Security</h5>
+              <p className="mulish400">
+                I enjoy every step of the design process.
+              </p>
+              <div className="gotoBox">
+                <FontAwesomeIcon icon={faArrowCircleRight} />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="col-lg-3">
-          <div className="contentBox box4 p-3">
-            <h5 className="montserrat600">Blogging</h5>
-            <p className="mulish400">
-              I enjoy every step of the design process.
-            </p>
-            <div className="gotoBox">
-              <FontAwesomeIcon icon={faArrowCircleRight} />
+          <a
+            style={{ textDecoration: "none" }}
+            href="http://futuretech.epizy.com"
+            target="_blank"
+          >
+            <div className="contentBox box4 p-3">
+              <h5 className="montserrat600">Blogging</h5>
+              <p className="mulish400">
+                I enjoy every step of the design process.
+              </p>
+              <div className="gotoBox">
+                <FontAwesomeIcon icon={faArrowCircleRight} />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
