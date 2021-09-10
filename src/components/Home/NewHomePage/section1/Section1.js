@@ -29,7 +29,7 @@ const Section1 = () => {
                 discussion and collaboration.
               </p>
               <a href="/about">
-                <button>Learn More</button>
+                <button>More About Me</button>
               </a>
             </div>
           </div>

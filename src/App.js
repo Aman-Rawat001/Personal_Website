@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 // import Projects from "./components/projects/projects";
 import About from "./components/about/About";
 // import Hprojects from "./components/subComp/HProjects";
-// import MLprojects from "./components/subComp/MLprojects";
+import MLprojects from "./components/subComp/MLprojects";
 // import WebProjects from "./components/subComp/WebProjects";
 // import Contact from "./components/contact/Contact";
 // import Live_tools from "./components/Tools/Tools";
@@ -23,13 +23,13 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={NewHomePage} />
             <Route exact path="/about" component={About} />
-            {/* <Route exact path="/projects" component={Projects} />
-            <Route exact path="/hacking-projects" component={Hprojects} />
             <Route
               exact
               path="/machine-learning-projects"
               component={MLprojects}
             />
+            {/* <Route exact path="/projects" component={Projects} />
+            <Route exact path="/hacking-projects" component={Hprojects} />
             <Route
               exact
               path="/web-development-projects"

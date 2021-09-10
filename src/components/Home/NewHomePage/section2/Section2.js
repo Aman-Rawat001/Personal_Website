@@ -19,15 +19,17 @@ const Section2 = () => {
       </div>
       <div className="row">
         <div className="col-lg-3">
-          <div className="contentBox box1 p-3">
-            <h5 className="montserrat600">Web Development</h5>
-            <p className="mulish400">
-              I enjoy every step of the design process.
-            </p>
-            <div className="gotoBox">
-              <FontAwesomeIcon icon={faArrowCircleRight} />
+          <a href="/machine-learning-projects">
+            <div className="contentBox box1 p-3">
+              <h5 className="montserrat600">Web Development</h5>
+              <p className="mulish400">
+                I enjoy every step of the design process.
+              </p>
+              <div className="gotoBox">
+                <FontAwesomeIcon icon={faArrowCircleRight} />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="col-lg-3">
           <div className="contentBox box2 p-3">
