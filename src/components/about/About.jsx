@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./about.css";
 import profileImg from "../images/about_section_profile.jpg";
 import My_cv from "../My_cv/My_cv";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -10,8 +9,24 @@ import {
   faGithub,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
+  const skillsArray = [
+    { name: "HTML", value: "95" },
+    { name: "CSS", value: "70" },
+    { name: "TypeScript", value: "40" },
+    { name: "JavaScript", value: "42" },
+    { name: "ReactJs", value: "85" },
+    { name: "React Native", value: "40" },
+    { name: "NodeJs", value: "50" },
+    { name: "ExpressJs", value: "50" },
+    { name: "OpenCV", value: "30" },
+    { name: "Firebase", value: "70" },
+    { name: "MongoDB", value: "45" },
+    { name: "Other", value: "55" },
+  ];
+
   const [showMore, setShowMore] = useState(true);
   const showMoreHandler = (e) => {
     if (showMore === true) {
@@ -45,9 +60,10 @@ const About = () => {
             </p>{" "}
           </div>{" "}
           <div className="my-5">
-            <h3 className="aboutMainTitle mb-3">
+            <h3 className="aboutMainTitle">
               Working Experience With Companies
             </h3>
+            <hr className="w-50" />
             <p>
               <span className="montserrat600">@Sunfox Technologies: </span>
               <span className="mulish400">
@@ -72,136 +88,174 @@ const About = () => {
           </div>{" "}
           <div>
             <div>
-              <h3 className="aboutMainTitle mb-4">Skills</h3>
+              <h3 className="aboutMainTitle">Skills</h3>
+              <hr className="w-50" />
             </div>
             <div className="row">
-              <div className="col-lg-6 my-2">
-                <div className="col-lg-3" style={{ display: "flex" }}>
-                  <label for="file">HTML:</label>
-                </div>
-
-                <progress
-                  id="file"
-                  value="95"
-                  max="100"
-                  style={{ width: "50%" }}
-                >
-                  {" "}
-                  32%{" "}
-                </progress>
+              {skillsArray.map((val, index) => {
+                return (
+                  <div className="col-lg-6 col-12 my-2">
+                    <div className="montserrat600" style={{ display: "flex" }}>
+                      <label for="file">{val.name}</label>
+                    </div>
+                    <progress
+                      id="file"
+                      value={val.value}
+                      max="100"
+                      style={{ width: "50%" }}
+                    ></progress>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <div className="my-5">
+            <h3 className="aboutMainTitle">Software Understandings</h3>
+            <hr className="w-50" />
+            <div className="normalFlexBox">
+              <div className="me-2">
+                <FontAwesomeIcon icon={faArrowRight} />
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">css:</label>
-                  <progress id="file" value="90" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
-                </div>
+              <div>
+                <p className="montserrat600">TailwindCss</p>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">JavaScript:</label>
-                  <progress id="file" value="70" max="100">
-                    {" "}
-                    42%{" "}
-                  </progress>
-                </div>
+            </div>
+            <div className="normalFlexBox">
+              <div className="me-2">
+                <FontAwesomeIcon icon={faArrowRight} />
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">TypeScript:</label>
-                  <progress id="file" value="70" max="100">
-                    {" "}
-                    40%{" "}
-                  </progress>
-                </div>
+              <div>
+                <p className="montserrat600">CircleCI</p>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">ReactJs:</label>
-                  <progress id="file" value="85" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
-                </div>
+            </div>
+            <div className="normalFlexBox">
+              <div className="me-2">
+                <FontAwesomeIcon icon={faArrowRight} />
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">React Native:</label>
-                  <progress id="file" value="40" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
+              <div>
+                <p className="montserrat600">Jira</p>
+              </div>
+            </div>
+            <div className="normalFlexBox">
+              <div className="me-2">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+              <div>
+                <p className="montserrat600">OpenCV</p>
+              </div>
+            </div>
+            <div id="showMore" style={{ display: "none" }}>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">Bootstrap</p>
                 </div>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">NodeJs:</label>
-                  <progress id="file" value="50" max="100">
-                    {" "}
-                    42%{" "}
-                  </progress>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">Git</p>
                 </div>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">ExpressJs:</label>
-                  <progress id="file" value="50" max="100">
-                    {" "}
-                    40%{" "}
-                  </progress>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">Firebase</p>
                 </div>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">OpenCV:</label>
-                  <progress id="file" value="30" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">Docker</p>
                 </div>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">Firebase</label>
-                  <progress id="file" value="70" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">Canvas</p>
                 </div>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">MongoDB</label>
-                  <progress id="file" value="50" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">Wordpress</p>
                 </div>
               </div>
-              <div className="col-lg-6 my-2">
-                <div className="row">
-                  <div></div>
-                  <label for="file">Other:</label>
-                  <progress id="file" value="55" max="100">
-                    {" "}
-                    32%{" "}
-                  </progress>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">GitHub</p>
+                </div>
+              </div>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
+                  <p className="montserrat600">BitBucket</p>
                 </div>
               </div>
             </div>
+            <a id="showBtn" onClick={showMoreHandler}>
+              Show More...
+            </a>
           </div>
+          <div className="otherSkills">
+            <h3 className="otherSkillsH3 aboutMainTitle">Interests</h3>
+            <hr className="w-50" />
+            <div>
+              <p className="bulletTags montserrat600">Wesbite_SEO</p>
+              <p className="bulletTags montserrat600">Blog_SEO</p>
+              <p className="bulletTags montserrat600">DIY_Drone</p>
+              <p className="bulletTags montserrat600">Arduino</p>
+              <p className="bulletTags montserrat600">Trading</p>
+              <p className="bulletTags montserrat600">Respberri_Pi</p>
+              <p className="bulletTags montserrat600">Machine Learning</p>
+              <p className="bulletTags montserrat600">Digital Marketing</p>
+            </div>
+          </div>
+          <div className="social my-5">
+            <h3 className="aboutMainTitle">Social Media Handles</h3>
+            <hr className="w-50" />
+            <div className="socialMedia">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100014344083429"
+              >
+                <FontAwesomeIcon className="socialIcons" icon={faFacebook} />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/aman_rawat0123/"
+              >
+                <FontAwesomeIcon className="socialIcons" icon={faInstagram} />
+              </a>
+              <a target="_blank" href="https://github.com/Aman-Rawat001">
+                <FontAwesomeIcon className="socialIcons" icon={faGithub} />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/aman-rawat-578b21193"
+              >
+                <FontAwesomeIcon className="socialIcons" icon={faLinkedin} />
+              </a>
+              {/* <a href=""><FontAwesomeIcon className="socialIcons" icon={faLinkedin} /></a> */}
+            </div>
+          </div>{" "}
         </div>
       </div>
     </>
@@ -209,198 +263,3 @@ const About = () => {
 };
 
 export default About;
-
-// {/* <div id="navbar"></div>
-// <div className="about_title">
-//   <h1>PORTFOLIO</h1>
-// </div>
-
-// <div className="about_container">
-//   <img className="profileImg" src={profileImg} alt="profile image" />
-//   <div className="about_content_div">
-//     {/* <p className="mulish400" className="about_content1">Hey</p> */}
-//     <p className="about_content2">
-//       This is <span id="name">Aman Rawat</span> from Dehradun Uttarakhand.
-//       Currently pursuing B.tech C.S.E from Graphic Era Hill
-//       University(GEHU).
-//     </p>
-//     <div className="experience">
-//       <h3>Working Experience With Companies</h3>
-//       <h5>
-//         @Sunfox Technologies:{" "}
-//         <span>
-//           I have done 6 month internship from (2/2021 to 7/2021) with
-//           sunfox technologies.
-//         </span>
-//       </h5>
-//       <h5>
-//         @Zostel.com:{" "}
-//         <span>
-//           I have worked with Zostel & Zoo-World as a react developer in
-//           2020.
-//         </span>
-//       </h5>
-//       <h5>
-//         @GurujiFinder.com:{" "}
-//         <span>
-//           It was basically early age startUp which was founded in 2018 and
-//           i was working with them as a website ranker(SEO).
-//         </span>
-//       </h5>
-//     </div>
-
-//     <div className="skills">
-//       <div className="skills_title">
-//         <h3>Skills</h3>
-//       </div>
-//       <div className="col-lg-6 my-2">
-
-//       </div>
-//       <div className="col-l<div></div>g-6 my-2">
-//         <label for="file">css:</label>
-//         <progress id="file" value="90" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">JavaScript:</label>
-//         <progress id="file" value="70" max="100">
-//           {" "}
-//           42%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">TypeScript:</label>
-//         <progress id="file" value="70" max="100">
-//           {" "}
-//           40%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">ReactJs:</label>
-//         <progress id="file" value="85" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">React Native:</label>
-//         <progress id="file" value="40" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">NodeJs:</label>
-//         <progress id="file" value="50" max="100">
-//           {" "}
-//           42%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">ExpressJs:</label>
-//         <progress id="file" value="50" max="100">
-//           {" "}
-//           40%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">OpenCV:</label>
-//         <progress id="file" value="30" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">Firebase</label>
-//         <progress id="file" value="70" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">MongoDB</label>
-//         <progress id="file" value="50" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//       <div className="skills_progressBar">
-//         <label for="file">Other:</label>
-//         <progress id="file" value="55" max="100">
-//           {" "}
-//           32%{" "}
-//         </progress>
-//       </div>
-//     </div>
-
-//     {/* external softwares */}
-//     <div className="eSoftwares">
-//       <h3>Software Understandings</h3>
-//       <p>TailwindCss</p>
-//       <p>CircleCI</p>
-//       <p>Jira</p>
-//       <p>OpenCV</p>
-//       <div id="showMore" style={{ display: "none" }}>
-//         <p>Bootstrap</p>
-//         <p>Git</p>
-//         <p>Firebase</p>
-//         <p>Docker</p>
-//         <p>Canvas</p>
-//         <p>Wordpress</p>
-//         <p>GitHub</p>
-//         <p>BitBucket</p>
-//       </div>
-//       <a id="showBtn" onClick={showMoreHandler}>
-//         Show More...
-//       </a>
-//     </div>
-//     {/* other skills */}
-//     <div
-//       className="otherSkills_container"
-//       style={{ textAlign: "center" }}
-//     >
-//       <h3 className="otherSkillsH3">Interests</h3>
-//       <div className="otherSkills">
-//         <p className="bulletTags">Wesbite_SEO</p>
-//         <p className="bulletTags">Blog_SEO</p>
-//         <p className="bulletTags">DIY_Drone</p>
-//         <p className="bulletTags">Arduino</p>
-//         <p className="bulletTags">Trading</p>
-//         <p className="bulletTags">Respberri_Pi</p>
-//         <p className="bulletTags">Machine Learning</p>
-//       </div>
-//     </div>
-
-//     {/* socail mdeia links */}
-//     <div className="social">
-//       <h3>Social Media Handles</h3>
-//       <div className="socialMedia">
-//         <a
-//           target="_blank"
-//           href="https://www.facebook.com/profile.php?id=100014344083429"
-//         >
-//           <FontAwesomeIcon className="socialIcons" icon={faFacebook} />
-//         </a>
-//         <a
-//           target="_blank"
-//           href="https://www.instagram.com/aman_rawat0123/"
-//         >
-//           <FontAwesomeIcon className="socialIcons" icon={faInstagram} />
-//         </a>
-//         <a target="_blank" href="https://github.com/Aman-Rawat001">
-//           <FontAwesomeIcon className="socialIcons" icon={faGithub} />
-//         </a>
-//         <a
-//           target="_blank"
-//           href="https://www.linkedin.com/in/aman-rawat-578b21193"
-//         >
-//           <FontAwesomeIcon className="socialIcons" icon={faLinkedin} />
-//         </a>
-//         {/* <a href=""><FontAwesomeIcon className="socialIcons" icon={faLinkedin} /></a> */}
-//       </div>
-//     </div>
-//   </div>
-// </div>
-// <My_cv /> */}

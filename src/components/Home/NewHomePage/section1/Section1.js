@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import section1Img from "../../../images/about_section_profile.jpg";
 import "./Section1.css";
 
@@ -28,9 +28,9 @@ const Section1 = () => {
                 a success. I enjoy every step of the design process, from
                 discussion and collaboration.
               </p>
-              <NavLink to="/about">
+              <a href="/about">
                 <button>Learn More</button>
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>

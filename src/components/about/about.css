@@ -8,3 +8,41 @@
   font-weight: 600;
   color: #4d4d4d;
 }
+.normalFlexBox {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.normalFlexBox p {
+  margin-bottom: 0;
+}
+#showBtn {
+  font-family: "montserrat";
+  font-style: italic;
+  font-weight: 600;
+  color: #ff9800;
+  cursor: pointer;
+}
+.otherSkills .bulletTags {
+  display: inline-block;
+  margin: 1rem;
+  background-color: #ff9800;
+  color: black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 1rem;
+}
+.social .socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social .socialMedia svg {
+  font-size: 2.2rem;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+.social .socialMedia svg:hover {
+  color: #ff9800;
+}
