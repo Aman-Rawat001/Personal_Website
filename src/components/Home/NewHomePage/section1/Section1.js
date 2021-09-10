@@ -6,7 +6,7 @@ import "./Section1.css";
 const Section1 = () => {
   return (
     <div>
-      <div className="section1 my-5" id="section1">
+      <div className="section1 py-5" id="section1">
         <div className="container">
           <div className="row section1Box">
             <div className="col-lg-6 imageBox">

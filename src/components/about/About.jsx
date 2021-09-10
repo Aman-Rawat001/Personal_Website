@@ -144,6 +144,14 @@ const About = () => {
                 <p className="montserrat600">OpenCV</p>
               </div>
             </div>
+            <div className="normalFlexBox">
+              <div className="me-2">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+              <div>
+                <p className="montserrat600">AWS Workspace</p>
+              </div>
+            </div>
             <div id="showMore" style={{ display: "none" }}>
               <div className="normalFlexBox">
                 <div className="me-2">

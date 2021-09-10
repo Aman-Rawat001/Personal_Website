@@ -50,7 +50,9 @@
     top: 48%;
   }
   .heroScreen .rightContent {
-    height: 99vh;
+    height: 100vh;
+    background-size: contain;
+    background-position: bottom;
     margin-top: 0;
   }
 }

@@ -2,3 +2,8 @@
   background-color: rgb(235, 235, 235);
   transition: all 150ms;
 }
+@media screen and (max-width: 575px) {
+  .newNavbar {
+    background-color: rgb(235, 235, 235);
+  }
+}
