@@ -25,68 +25,109 @@ const Section3 = () => {
             </small>
           </div>
           <div className="col-lg-4 featuredBox">
-            <div className="imageBox">
-              <img
-                className="featureImg"
-                src={notesUniverse}
-                alt="featured_Image"
-              />
-              <h6 className="montserratNormal mt-4">Notes Universe</h6>
-              <p className="mulish400">Web Development</p>
-            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://notes-universe.web.app/"
+              target="_blank"
+            >
+              <div className="imageBox">
+                <img
+                  className="featureImg"
+                  src={notesUniverse}
+                  alt="featured_Image"
+                />
+                <h6 className="montserratNormal mt-4">Notes Universe</h6>
+                <p className="mulish400">Web Development</p>
+              </div>
+            </a>
           </div>
           <div className="col-lg-4 featuredBox">
-            <div className="imageBox">
-              <img
-                className="featureImg"
-                src={futureTech}
-                alt="featured_Image"
-              />
-              <h6 className="montserratNormal mt-4">Blogging Web</h6>
-              <p className="mulish400">Blogging</p>
-            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="http://futuretech.epizy.com"
+              target="_blank"
+            >
+              <div className="imageBox">
+                <img
+                  className="featureImg"
+                  src={futureTech}
+                  alt="featured_Image"
+                />
+                <h6 className="montserratNormal mt-4">Blogging Web</h6>
+                <p className="mulish400">Blogging</p>
+              </div>
+            </a>
           </div>
           <div className="col-lg-4 featuredBox">
-            <div className="imageBox">
-              <img className="featureImg" src={imageLib} alt="featured_Image" />
-              <h6 className="montserratNormal mt-4">Image Finger</h6>
-              <p className="mulish400">Web Development</p>
-            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="/image_finder"
+              target="_blank"
+            >
+              <div className="imageBox">
+                <img
+                  className="featureImg"
+                  src={imageLib}
+                  alt="featured_Image"
+                />
+                <h6 className="montserratNormal mt-4">Image Finger</h6>
+                <p className="mulish400">Web Development</p>
+              </div>
+            </a>
           </div>
           <div className="col-lg-4 featuredBox">
-            <div className="imageBox">
-              <img
-                className="featureImg"
-                src={handTracking}
-                alt="featured_Image"
-              />
-              <h6 className="montserratNormal mt-4">
-                Hand Gesture Recognization
-              </h6>
-              <p className="mulish400">Machine Learning</p>
-            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/Aman-Rawat001/Hand_Gesture-Recognization"
+              target="_blank"
+            >
+              <div className="imageBox">
+                <img
+                  className="featureImg"
+                  src={handTracking}
+                  alt="featured_Image"
+                />
+                <h6 className="montserratNormal mt-4">
+                  Hand Gesture Recognization
+                </h6>
+                <p className="mulish400">Machine Learning</p>
+              </div>
+            </a>
           </div>
           <div className="col-lg-4 featuredBox">
-            <div className="imageBox">
-              <img
-                className="featureImg"
-                src={faceDetection}
-                alt="featured_Image"
-              />
-              <h6 className="montserratNormal mt-4">Face Detection</h6>
-              <p className="mulish400">Machine Learning</p>
-            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/Aman-Rawat001/Face-Recognition"
+              target="_blank"
+            >
+              <div className="imageBox">
+                <img
+                  className="featureImg"
+                  src={faceDetection}
+                  alt="featured_Image"
+                />
+                <h6 className="montserratNormal mt-4">Face Detection</h6>
+                <p className="mulish400">Machine Learning</p>
+              </div>
+            </a>
           </div>
+
           <div className="col-lg-4 featuredBox">
-            <div className="imageBox">
-              <img
-                className="featureImg"
-                src={securityCam}
-                alt="featured_Image"
-              />
-              <h6 className="montserratNormal mt-4">Smart Security Cam</h6>
-              <p className="mulish400">Machine Learning</p>
-            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/Aman-Rawat001/Security-camera-OpenCV"
+              target="_blank"
+            >
+              <div className="imageBox">
+                <img
+                  className="featureImg"
+                  src={securityCam}
+                  alt="featured_Image"
+                />
+                <h6 className="montserratNormal mt-4">Smart Security Cam</h6>
+                <p className="mulish400">Machine Learning</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
