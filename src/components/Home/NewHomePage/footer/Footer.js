@@ -30,10 +30,27 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 footerPairs">
             <div className="textFooter footerIcons">
-              <FontAwesomeIcon icon={faFacebook} />
-              <FontAwesomeIcon icon={faLinkedin} />
-              <FontAwesomeIcon icon={faGithub} />
-              <FontAwesomeIcon icon={faInstagram} />
+              <a
+                href="https://www.instagram.com/aman_rawat0123/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a
+                href="https://www.facebook.com/people/Aman-Rawat/100014344083429/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://github.com/Aman-Rawat001" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/aman-rawat-578b21193/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </div>
           </div>
         </div>
