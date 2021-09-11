@@ -4,6 +4,7 @@
   transition: all 0.3s;
   filter: brightness(0.9);
 }
+
 .section3 .featuredBox .imageBox {
   margin-bottom: 3rem;
   cursor: pointer;

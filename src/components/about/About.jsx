@@ -42,7 +42,7 @@ const About = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="container my-5">
+        <div className="container aboutMainBox">
           <div>
             <h5 className="montserrat600 aboutTitle">MORE ABOUT ME</h5>
           </div>

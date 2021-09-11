@@ -10,6 +10,7 @@ import WebProjects from "./components/subComp/WebProjects";
 import ImageFinder from "./components/Tools/ImageFinder/ImageFinder";
 import NewHomePage from "./components/Home/NewHomePage/NewHomePage";
 import "./styles.css";
+import Footer from "./components/Home/NewHomePage/footer/Footer";
 
 // import HomePage from "./components/Home/HomePage";
 // import ImgFinderNavbar from "./components/Tools/ImageFinder/ImgFinderNavbar/ImgFinderNavbar";
@@ -41,6 +42,7 @@ const App = () => {
           </Switch>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

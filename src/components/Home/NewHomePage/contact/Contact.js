@@ -3,8 +3,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="container my-5">
-      <div className="contactUs">
+    <div className="container contactUs">
+      <div className="">
         <div className="my-5">
           <h3
             className="montserrat600 mt-5"

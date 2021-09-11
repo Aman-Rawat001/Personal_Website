@@ -2,6 +2,10 @@
   color: #ff9800 !important;
   font-size: 2rem;
 }
+.aboutMainBox {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
 .aboutMainTitle {
   font-family: "montserrat";
   font-style: italic;
