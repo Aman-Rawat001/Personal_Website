@@ -42,6 +42,7 @@
 @media screen and (max-width: 575px) {
   .heroScreen .absoluteContent .name h1 {
     font-size: 5rem;
+    backdrop-filter: brightness(0.5);
   }
   .heroScreen .absoluteContent {
     text-align: center;
@@ -50,9 +51,13 @@
     top: 48%;
   }
   .heroScreen .rightContent {
-    height: 100vh;
+    height: 95vh;
     background-size: contain;
     background-position: bottom;
     margin-top: 0;
+  }
+  .heroScreen .absoluteContent > p {
+    color: #ffffff;
+    backdrop-filter: brightness(0.5);
   }
 }
