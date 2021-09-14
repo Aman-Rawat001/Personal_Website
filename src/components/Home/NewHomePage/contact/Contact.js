@@ -3,7 +3,12 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="container contactUs">
+    <div
+      className="container contactUs"
+      data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="">
         <div className="my-5">
           <h3

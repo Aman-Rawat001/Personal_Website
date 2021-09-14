@@ -11,6 +11,7 @@
     <link rel="icon" href="%PUBLIC_URL%/circle-cropped.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300;1,700&display=swap"
       rel="stylesheet"
@@ -34,6 +35,12 @@
   <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
   <script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>

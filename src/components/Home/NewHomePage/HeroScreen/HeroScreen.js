@@ -67,10 +67,18 @@ const HeroScreen = () => {
       <div className="row">
         <div className="absoluteContent">
           <span className="name">
-            <h1 className="fname">AMAN</h1>
-            <h1 className="lname">RAWAT</h1>
+            <h1 className="fname" data-aos="fade-right" data-aos-duration="800">
+              AMAN
+            </h1>
+            <h1
+              className="lname"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+            >
+              RAWAT
+            </h1>
           </span>
-          <p>
+          <p data-aos="flip-up" data-aos-duration="2500">
             I AM<span> </span>
             <span
               class="txt-rotate text"

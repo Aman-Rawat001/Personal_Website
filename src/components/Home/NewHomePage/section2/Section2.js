@@ -18,7 +18,7 @@ const Section2 = () => {
         </small>
       </div>
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col-lg-3" data-aos="fade-down" data-aos-duration="1000">
           <a
             style={{ textDecoration: "none" }}
             href="/web-development-projects"
@@ -35,7 +35,7 @@ const Section2 = () => {
             </div>
           </a>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3" data-aos="fade-down" data-aos-duration="1500">
           <a
             style={{ textDecoration: "none" }}
             href="/machine-learning-projects"
@@ -52,7 +52,7 @@ const Section2 = () => {
             </div>
           </a>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3" data-aos="fade-down" data-aos-duration="2000">
           <a style={{ textDecoration: "none" }} href="hacking-projects">
             <div className="contentBox box3 p-3">
               <h5 className="montserrat600">Cyber Security</h5>
@@ -66,7 +66,7 @@ const Section2 = () => {
             </div>
           </a>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3" data-aos="fade-down" data-aos-duration="2500">
           <a
             style={{ textDecoration: "none" }}
             href="http://futuretech.epizy.com"

@@ -99,6 +99,7 @@ const About = () => {
                       <label for="file">{val.name}</label>
                     </div>
                     <progress
+                      data-aos="fade-left"
                       id="file"
                       value={val.value}
                       max="100"
@@ -226,14 +227,33 @@ const About = () => {
             <h3 className="otherSkillsH3 aboutMainTitle">Interests</h3>
             <hr className="w-50" />
             <div>
-              <p className="bulletTags montserrat600">Wesbite_SEO</p>
-              <p className="bulletTags montserrat600">Blog_SEO</p>
-              <p className="bulletTags montserrat600">DIY_Drone</p>
-              <p className="bulletTags montserrat600">Arduino</p>
-              <p className="bulletTags montserrat600">Trading</p>
-              <p className="bulletTags montserrat600">Respberri_Pi</p>
-              <p className="bulletTags montserrat600">Machine Learning</p>
-              <p className="bulletTags montserrat600">Digital Marketing</p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Wesbite_SEO
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Freelancing
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Blog_SEO
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                DIY_Drone
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Arduino
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Trading
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Respberri_Pi
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Machine Learning
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Digital Marketing
+              </p>
             </div>
           </div>
           <div className="social my-5">
@@ -242,21 +262,32 @@ const About = () => {
             <div className="socialMedia">
               <a
                 target="_blank"
+                data-aos="zoom-in"
+                data-aos-delay="300"
                 href="https://www.facebook.com/profile.php?id=100014344083429"
               >
                 <FontAwesomeIcon className="socialIcons" icon={faFacebook} />
               </a>
               <a
                 target="_blank"
+                data-aos="zoom-in"
+                data-aos-delay="400"
                 href="https://www.instagram.com/aman_rawat0123/"
               >
                 <FontAwesomeIcon className="socialIcons" icon={faInstagram} />
               </a>
-              <a target="_blank" href="https://github.com/Aman-Rawat001">
+              <a
+                target="_blank"
+                data-aos="zoom-in"
+                data-aos-delay="500"
+                href="https://github.com/Aman-Rawat001"
+              >
                 <FontAwesomeIcon className="socialIcons" icon={faGithub} />
               </a>
               <a
                 target="_blank"
+                data-aos="zoom-in"
+                data-aos-delay="600"
                 href="https://www.linkedin.com/in/aman-rawat-578b21193"
               >
                 <FontAwesomeIcon className="socialIcons" icon={faLinkedin} />

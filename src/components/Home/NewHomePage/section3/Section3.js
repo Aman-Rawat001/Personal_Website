@@ -24,7 +24,12 @@ const Section3 = () => {
               (Tap the image to access the code/website)
             </small>
           </div>
-          <div className="col-lg-4 featuredBox">
+          <div
+            className="col-lg-4 featuredBox"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <a
               style={{ textDecoration: "none" }}
               href="https://notes-universe.web.app/"
@@ -41,7 +46,12 @@ const Section3 = () => {
               </div>
             </a>
           </div>
-          <div className="col-lg-4 featuredBox">
+          <div
+            className="col-lg-4 featuredBox"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <a
               style={{ textDecoration: "none" }}
               href="http://futuretech.epizy.com"
@@ -58,7 +68,12 @@ const Section3 = () => {
               </div>
             </a>
           </div>
-          <div className="col-lg-4 featuredBox">
+          <div
+            className="col-lg-4 featuredBox"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <a
               style={{ textDecoration: "none" }}
               href="/image_finder"
@@ -75,7 +90,12 @@ const Section3 = () => {
               </div>
             </a>
           </div>
-          <div className="col-lg-4 featuredBox">
+          <div
+            className="col-lg-4 featuredBox"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <a
               style={{ textDecoration: "none" }}
               href="https://github.com/Aman-Rawat001/Hand_Gesture-Recognization"
@@ -94,7 +114,12 @@ const Section3 = () => {
               </div>
             </a>
           </div>
-          <div className="col-lg-4 featuredBox">
+          <div
+            className="col-lg-4 featuredBox"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <a
               style={{ textDecoration: "none" }}
               href="https://github.com/Aman-Rawat001/Face-Recognition"
@@ -112,7 +137,12 @@ const Section3 = () => {
             </a>
           </div>
 
-          <div className="col-lg-4 featuredBox">
+          <div
+            className="col-lg-4 featuredBox"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <a
               style={{ textDecoration: "none" }}
               href="https://github.com/Aman-Rawat001/Security-camera-OpenCV"
