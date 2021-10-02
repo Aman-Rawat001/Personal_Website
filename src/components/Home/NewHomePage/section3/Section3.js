@@ -54,7 +54,7 @@ const Section3 = () => {
           >
             <a
               style={{ textDecoration: "none" }}
-              href="http://futuretech.epizy.com"
+              href="http://brightdestiny.co.bw/"
               target="_blank"
             >
               <div className="imageBox">
@@ -63,8 +63,10 @@ const Section3 = () => {
                   src={futureTech}
                   alt="featured_Image"
                 />
-                <h6 className="montserratNormal mt-4">Blogging Web</h6>
-                <p className="mulish400">Blogging</p>
+                <h6 className="montserratNormal mt-4">
+                  Bright Destiny PVT LTD
+                </h6>
+                <p className="mulish400">Freelancing client website</p>
               </div>
             </a>
           </div>
@@ -145,7 +147,7 @@ const Section3 = () => {
           >
             <a
               style={{ textDecoration: "none" }}
-              href="https://github.com/Aman-Rawat001/Security-camera-OpenCV"
+              href="https://github.com/Aman-Rawat001/Object-recognization-reactJs-web-app"
               target="_blank"
             >
               <div className="imageBox">

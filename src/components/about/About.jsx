@@ -79,6 +79,14 @@ const About = () => {
               </span>
             </p>
             <p>
+              <span className="montserrat600">@Fiverr.com: </span>
+              <span className="mulish400">
+                I also work as a part time freelancer on fiverr.com, i have yet
+                successfully delieverd more than 20+ clients requirements so
+                far.
+              </span>
+            </p>
+            <p>
               <span className="montserrat600">@GurujiFinder.com: </span>
               <span className="mulish400">
                 It was basically early age startUp which was founded in 2018 and
@@ -237,6 +245,12 @@ const About = () => {
                 Blog_SEO
               </p>
               <p className="bulletTags montserrat600" data-aos="fade-down">
+                Blogging
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Crypto Tech
+              </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
                 DIY_Drone
               </p>
               <p className="bulletTags montserrat600" data-aos="fade-down">
@@ -263,6 +277,22 @@ const About = () => {
               <a
                 target="_blank"
                 data-aos="zoom-in"
+                data-aos-delay="600"
+                href="https://www.linkedin.com/in/aman-rawat-578b21193"
+              >
+                <FontAwesomeIcon className="socialIcons" icon={faLinkedin} />
+              </a>
+              <a
+                target="_blank"
+                data-aos="zoom-in"
+                data-aos-delay="500"
+                href="https://github.com/Aman-Rawat001"
+              >
+                <FontAwesomeIcon className="socialIcons" icon={faGithub} />
+              </a>
+              <a
+                target="_blank"
+                data-aos="zoom-in"
                 data-aos-delay="300"
                 href="https://www.facebook.com/profile.php?id=100014344083429"
               >
@@ -276,22 +306,7 @@ const About = () => {
               >
                 <FontAwesomeIcon className="socialIcons" icon={faInstagram} />
               </a>
-              <a
-                target="_blank"
-                data-aos="zoom-in"
-                data-aos-delay="500"
-                href="https://github.com/Aman-Rawat001"
-              >
-                <FontAwesomeIcon className="socialIcons" icon={faGithub} />
-              </a>
-              <a
-                target="_blank"
-                data-aos="zoom-in"
-                data-aos-delay="600"
-                href="https://www.linkedin.com/in/aman-rawat-578b21193"
-              >
-                <FontAwesomeIcon className="socialIcons" icon={faLinkedin} />
-              </a>
+
               {/* <a href=""><FontAwesomeIcon className="socialIcons" icon={faLinkedin} /></a> */}
             </div>
           </div>{" "}
