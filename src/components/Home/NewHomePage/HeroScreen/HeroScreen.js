@@ -83,7 +83,7 @@ const HeroScreen = () => {
             <span
               class="txt-rotate text"
               data-period="2000"
-              data-rotate='[ "AMAN RAWAT", "WEB DEVELOPER", "BLOGGER"]'
+              data-rotate='[ "AMAN RAWAT", "WEB DEVELOPER", "BLOGGER", "FREELANCER"]'
             ></span>
           </p>
         </div>

@@ -53,7 +53,7 @@ const About = () => {
               passionate and dedicated to my work.
             </p>
             <p className="mulish400">
-              With 20 years experience as a professional Web developer, I have
+              With 3+ years experience as a professional Web developer, I have
               acquired the skills and knowledge necessary to make your project a
               success. I enjoy every step of the design process, from discussion
               and collaboration.{" "}

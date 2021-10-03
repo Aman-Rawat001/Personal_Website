@@ -54,6 +54,15 @@ const MLprojects = () => {
               <ProjectBox
                 hidden_link="true"
                 img={img3}
+                title="Object Recognition In Browser"
+                quote="See How Machine Sees"
+                link="https://github.com/Aman-Rawat001/Object-recognization-reactJs-web-app"
+              />
+            </div>
+            <div className="col-lg-4 col-12">
+              <ProjectBox
+                hidden_link="true"
+                img={img3}
                 title="Smart Security Camera(OpenCV)"
                 quote="Interesting In Predictive Analytics"
                 link="https://github.com/Aman-Rawat001/Security-camera-OpenCV"
