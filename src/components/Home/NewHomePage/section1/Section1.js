@@ -19,12 +19,16 @@ const Section1 = () => {
             >
               <div>
                 <h1 className="contentName montserrat600 ">AMAN RAWAT</h1>
-                <p className="montserrat600">Creative Web & App Developer</p>
+                <p className="montserrat600">
+                  Creator of{" "}
+                  <a href="https://thepapareviews.com/">ThePapaReviews.com</a>
+                </p>
               </div>
               <hr className="my-5" />
               <p className="mulish400">
-                My name is Aman Rawat. I am a Web Developer, and I'm very
-                passionate and dedicated to my work.
+                My name is Aman Rawat. I am a Web Developer, freelancer, blogger
+                and digital marketer and I'm very passionate and dedicated to my
+                work.
               </p>
               <p className="mulish400">
                 With 3+ years experience as a professional Web developer, I have

@@ -19,7 +19,7 @@ const MLprojects = () => {
                 hidden_link="true"
                 img={img3}
                 title="Live Moment Tracking"
-                quote="That's Why Hackers Always Win"
+                quote="Motion Detection OpenCV"
                 link="https://github.com/Aman-Rawat001/Live-moment-tracking-in-ML"
               />
             </div>
@@ -57,6 +57,15 @@ const MLprojects = () => {
                 title="Object Recognition In Browser"
                 quote="See How Machine Sees"
                 link="https://github.com/Aman-Rawat001/Object-recognization-reactJs-web-app"
+              />
+            </div>
+            <div className="col-lg-4 col-12">
+              <ProjectBox
+                hidden_link="true"
+                img={img3}
+                title="Crowd Motion Analysis using Computer Vision"
+                quote="Control The Crowd"
+                link="https://github.com/Aman-Rawat001/Crowd-motion-analysis-using-openCV"
               />
             </div>
             <div className="col-lg-4 col-12">

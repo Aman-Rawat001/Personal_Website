@@ -42,7 +42,7 @@ const Section3 = () => {
                   alt="featured_Image"
                 />
                 <h6 className="montserratNormal mt-4">Notes Universe</h6>
-                <p className="mulish400">Web Development</p>
+                <p className="mulish400">Free Notes Surfing Site</p>
               </div>
             </a>
           </div>
@@ -66,7 +66,7 @@ const Section3 = () => {
                 <h6 className="montserratNormal mt-4">
                   Bright Destiny PVT LTD
                 </h6>
-                <p className="mulish400">Freelancing client website</p>
+                <p className="mulish400">Botswana Travel Agency</p>
               </div>
             </a>
           </div>
@@ -78,7 +78,7 @@ const Section3 = () => {
           >
             <a
               style={{ textDecoration: "none" }}
-              href="/image_finder"
+              href="https://dun-services.web.app/"
               target="_blank"
             >
               <div className="imageBox">
@@ -87,8 +87,8 @@ const Section3 = () => {
                   src={imageLib}
                   alt="featured_Image"
                 />
-                <h6 className="montserratNormal mt-4">Image Finger</h6>
-                <p className="mulish400">Web Development</p>
+                <h6 className="montserratNormal mt-4">Dun Services</h6>
+                <p className="mulish400">Find Best Services For You</p>
               </div>
             </a>
           </div>

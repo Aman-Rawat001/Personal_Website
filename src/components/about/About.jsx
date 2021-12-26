@@ -24,6 +24,7 @@ const About = () => {
     { name: "OpenCV", value: "30" },
     { name: "Firebase", value: "70" },
     { name: "MongoDB", value: "45" },
+    { name: "WordPress", value: "90" },
     { name: "Other", value: "55" },
   ];
 
@@ -49,26 +50,28 @@ const About = () => {
           <hr />
           <div>
             <p className="mulish400">
-              My name is Aman Rawat. I am a Web Developer, and I'm very
-              passionate and dedicated to my work.
+              My name is Aman Rawat. I am a Web Developer, freelancer, blogger
+              and digital marketer and I'm very passionate and dedicated to my
+              work.
             </p>
             <p className="mulish400">
-              With 3+ years experience as a professional Web developer, I have
+              With 3+ years experience as a professional Web developer, i have
               acquired the skills and knowledge necessary to make your project a
               success. I enjoy every step of the design process, from discussion
               and collaboration.{" "}
             </p>{" "}
+            {/* <p className="mulish400">
+              I have delivered 20+ projects to my clients with 100% satisfaction
+            </p> */}
           </div>{" "}
           <div className="my-5">
-            <h3 className="aboutMainTitle">
-              Working Experience With Companies
-            </h3>
+            <h3 className="aboutMainTitle">Working Experience In Companies</h3>
             <hr className="w-50" />
             <p>
               <span className="montserrat600">@Sunfox Technologies: </span>
               <span className="mulish400">
-                I have done 6 month internship from (2/2021 to 7/2021) with
-                sunfox technologies.
+                I have done 6 month internship from (2/2021 to 7/2021) in sunfox
+                technologies.
               </span>
             </p>
             <p>

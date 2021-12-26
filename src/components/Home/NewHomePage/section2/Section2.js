@@ -69,7 +69,7 @@ const Section2 = () => {
         <div className="col-lg-3" data-aos="fade-down" data-aos-duration="2500">
           <a
             style={{ textDecoration: "none" }}
-            href="http://futuretech.epizy.com"
+            href="https://thepapareviews.com/"
             target="_blank"
           >
             <div className="contentBox box4 p-3">

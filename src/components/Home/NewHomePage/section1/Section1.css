@@ -15,6 +15,9 @@
   font-family: "montserrat";
   font-weight: 600;
 }
+.section1 p a {
+  text-decoration: none;
+}
 .section1 button {
   margin-top: 1rem;
   border-radius: 0;

@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="col-lg-3 footerPairs">
             <div className="textFooter footerIcons">
               <a
-                href="https://www.instagram.com/aman_rawat0123/"
+                href="https://www.linkedin.com/in/aman-rawat-578b21193/"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
@@ -46,7 +46,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               <a
-                href="https://www.linkedin.com/in/aman-rawat-578b21193/"
+                href="https://www.instagram.com/aman_rawat0123/ "
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faInstagram} />
