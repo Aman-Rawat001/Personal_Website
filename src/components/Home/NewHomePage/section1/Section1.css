@@ -18,6 +18,7 @@
 .section1 p a {
   text-decoration: none;
 }
+
 .section1 button {
   margin-top: 1rem;
   border-radius: 0;
@@ -36,5 +37,12 @@
 @media (max-width: 575px) {
   .section1 .imageBox {
     display: none;
+  }
+  .smallScreenNone {
+    display: none;
+  }
+  .smallScreenMy-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }

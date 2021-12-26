@@ -17,14 +17,19 @@ const Section1 = () => {
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <div>
+              <div className="smallScreenMy-3">
                 <h1 className="contentName montserrat600 ">AMAN RAWAT</h1>
                 <p className="montserrat600">
                   Creator of{" "}
-                  <a href="https://thepapareviews.com/">ThePapaReviews.com</a>
+                  <a
+                    href="https://thepapareviews.com/"
+                    style={{ color: "rgb(227 135 0)" }}
+                  >
+                    ThePapaReviews.com
+                  </a>
                 </p>
               </div>
-              <hr className="my-5" />
+              <hr className="my-5 smallScreenNone" />
               <p className="mulish400">
                 My name is Aman Rawat. I am a Web Developer, freelancer, blogger
                 and digital marketer and I'm very passionate and dedicated to my
