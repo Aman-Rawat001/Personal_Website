@@ -20,13 +20,13 @@ const Section1 = () => {
               <div className="smallScreenMy-3">
                 <h1 className="contentName montserrat600 ">AMAN RAWAT</h1>
                 <p className="montserrat600">
-                  Creator of{" "}
-                  <a
+                  Creative Web & App Developer
+                  {/* <a
                     href="https://thepapareviews.com/"
                     style={{ color: "rgb(227 135 0)" }}
                   >
                     ThePapaReviews.com
-                  </a>
+                  </a> */}
                 </p>
               </div>
               <hr className="my-5 smallScreenNone" />

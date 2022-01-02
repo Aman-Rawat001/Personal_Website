@@ -194,6 +194,14 @@ const About = () => {
                   <FontAwesomeIcon icon={faArrowRight} />
                 </div>
                 <div>
+                  <p className="montserrat600">PWA's</p>
+                </div>
+              </div>
+              <div className="normalFlexBox">
+                <div className="me-2">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+                <div>
                   <p className="montserrat600">Docker</p>
                 </div>
               </div>
@@ -262,19 +270,22 @@ const About = () => {
               <p className="bulletTags montserrat600" data-aos="fade-down">
                 Trading
               </p>
-              <p className="bulletTags montserrat600" data-aos="fade-down">
+              {/* <p className="bulletTags montserrat600" data-aos="fade-down">
                 Respberri_Pi
-              </p>
+              </p> */}
               <p className="bulletTags montserrat600" data-aos="fade-down">
                 Machine Learning
               </p>
               <p className="bulletTags montserrat600" data-aos="fade-down">
                 Digital Marketing
               </p>
+              <p className="bulletTags montserrat600" data-aos="fade-down">
+                Affiliate Marketing
+              </p>
             </div>
           </div>
           <div className="social my-5">
-            <h3 className="aboutMainTitle">Social Media Handles</h3>
+            <h3 className="aboutMainTitle">Connect With Me</h3>
             <hr className="w-50" />
             <div className="socialMedia">
               <a

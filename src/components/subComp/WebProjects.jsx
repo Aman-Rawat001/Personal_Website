@@ -33,6 +33,9 @@ const WebProjects = () => {
           <h1 className="aboutTitle montserrat600">
             WEB DEVELOPMENT PROJECTS SO FAR
           </h1>
+          <small style={{ color: "gray", fontStyle: "italic" }}>
+            (All Clients & Own Web Projects)
+          </small>
           <hr className="mb-5" />
           {loading ? (
             <div className="blocks row">

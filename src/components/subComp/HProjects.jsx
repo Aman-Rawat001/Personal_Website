@@ -26,7 +26,7 @@ const Hprojects = () => {
               <ProjectBox
                 hidden_link="true"
                 img={img1}
-                title="Vedio Call Hack"
+                title="Video Call Hack"
                 quote="Design Your Own World"
                 link="https://github.com/Aman-Rawat001/Video-call-hack"
               />
