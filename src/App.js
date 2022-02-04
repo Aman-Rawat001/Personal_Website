@@ -11,6 +11,7 @@ import ImageFinder from "./components/Tools/ImageFinder/ImageFinder";
 import NewHomePage from "./components/Home/NewHomePage/NewHomePage";
 import "./styles.css";
 import Footer from "./components/Home/NewHomePage/footer/Footer";
+import Services from "./components/Services/Services";
 
 // import HomePage from "./components/Home/HomePage";
 // import ImgFinderNavbar from "./components/Tools/ImageFinder/ImgFinderNavbar/ImgFinderNavbar";
@@ -36,6 +37,7 @@ const App = () => {
             />
             <Route exact path="/hacking-projects" component={Hprojects} />
             <Route exact path="/image_finder" component={ImageFinder} />
+            <Route exact path="/services" component={Services} />
             {/* <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
   <Route exact path="/live_tools" component={Live_tools} />*/}
