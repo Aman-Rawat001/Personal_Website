@@ -1,0 +1,53 @@
+.serviceBox div img {
+  width: 12rem;
+}
+.DMImage img {
+  width: 18rem;
+}
+.DMText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgGray {
+  background-color: #e6e6e654;
+}
+.servicesBanner img {
+  width: 100%;
+}
+.servicesSection-2 .boxShadow {
+  border: 1px solid #c6c6c6;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.servicesSection-2 .boxShadow:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.servicesSection-2 .boxShadow h3 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 25px;
+  font-weight: 600;
+  color: #5c5252;
+}
+#boxshadow0 {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.serviceBox .serviceDisplayFlex,
+.serviceImgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicesSection-2 h1,
+.ourDMServices div h3 {
+  color: #ff9800;
+}
+.titleColor {
+  color: #ff9800;
+}
+.servicesSection-3 img {
+  width: 100%;
+}

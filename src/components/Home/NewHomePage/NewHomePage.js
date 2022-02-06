@@ -78,6 +78,11 @@ const NewHomePage = () => {
                   </li>
 
                   <li className="nav-item">
+                    <a className="nav-link" exact href="/services">
+                      Services
+                    </a>
+                  </li>
+                  <li className="nav-item">
                     <a className="nav-link" exact href="#contact">
                       Contact
                     </a>
